@@ -1,0 +1,90 @@
+{% extends "admin/base_site.html" %}
+
+{% load i18n admin_urls admin_static admin_modify %}
+
+{#  WARNING: GENERATED FILE - EDITS WILL BE LOST  #}
+{#  GENERATED FROM: $apps_path/orders/templets.yaml at line 8 on 2016-11-07 at 20:31:33 PST(GMT-0800)  #}
+
+
+{% block extrahead %}{{ block.super }}
+<script type="text/javascript" src="{% url 'admin:jsi18n' %}"></script>
+{{ media }}
+{% endblock %}
+
+
+{% block coltype %}colM{% endblock %}
+
+{% block bodyclass %}{{ block.super }} app-{{ opts.app_label }} model-{{ opts.model_name }} change-form{% endblock %}
+
+{% if not is_popup %}
+{% block breadcrumbs %}
+<ul>
+<li>
+<a href="{% url 'admin:index' %}">{% trans 'Home' %}</a>
+</li>
+<li>
+ <a href="{% url 'admin:app_list' app_label=opts.app_label %}">{{ opts.app_config.verbose_name }}</a>
+</li>
+<li>
+ <a href="{% url opts|admin_urlname:'changelist' %}">{{ opts.verbose_name_plural|capfirst }}</a>
+</li>
+<li>
+Details
+</li>
+</ul>
+
+{% endblock %}
+{% endif %}
+
+{% block content_title %}
+  <h1>IP-ADDRESS : <span style="color: #309bbf;"> {{ entry.ip_address }} </span> </h1>
+{% endblock %}
+{% block content %}
+  <table>
+    <tr>
+      <th>Customer(user)</th>
+      <th>Area code</th>
+      <th>Continent code</th>
+      <th>Country name</th>
+      <th>City name</th>
+      <th>Dma code</th>
+      <th>Latitude</th>
+      <th>Longitude</th>
+      <th>Postal code</th>
+      <th>Region</th>
+    </tr>
+      <tr>
+        <td>
+        {{ entry.customer.user.username }}
+        </td>
+         <td>
+        {{ area_code }}
+        </td>
+        <td>
+         {{ continent_code }}
+         </td>
+         <td>
+         {{ country_name }}
+        </td>
+         <td>
+         {{ city }}
+         </td>
+         <td>
+         {{ dma_code }}
+        </td>
+         <td>
+         {{ latitude }}
+        </td>
+         <td>
+         {{ longitude }}
+        </td>
+         <td>
+         {{ postal_code }}
+        </td>
+         <td>
+         {{ region}}
+        </td>
+      </tr>
+  </table>
+{% endblock %}
+

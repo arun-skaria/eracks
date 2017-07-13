@@ -1,0 +1,18 @@
+# ignore these dirs and patterns
+bower_components/
+env/
+etc/
+migrations/
+old/
+src/
+
+# these are all left over from when we were in the root dir
+
+.git/
+.gitignore
+.vagrant/
+.wercker/
+fixtures/
+graphics/
+packages/
+log/

@@ -1,0 +1,40 @@
+./salt-requirements.sh
+pip install setuptools -U
+pip uninstall html5lib
+#pip install html5lib==1.0b8
+pip install -Ur requirements.txt
+
+# why didn't this get upgraded?  likely venv?
+pip install httplib2 urllib3 --upgrade
+
+Postmortem 9/17/16, dead.
+
+Still needed:
+
+migrate - faults:
+
+./manage.py migrate -l
+django.db.migrations.graph.NodeNotFoundError: Migration social_auth.0003_auto_20151227_1809 dependencies reference nonexistent parent node (u'default', u'0002_auto_20150210_1402')
+
+No amount of migration commands work, iuncluding fake, zero, etc - app is:
+./manage.py migrate --fake social.apps.django_app.default zero
+
+FUBAR.
+
+Solutions:
+- delete two parallel / duplicated social migrations 2 & 3.
+- move already-applied but faulting auth migration to 'old'
+- userena: already applied, so --fake it - note you have to specify the number, otherwise it BACKS OUT the migrations.
+
+Who wrote this sh*t?
+
+- Also had to --fake 0001 initial guardian migration
+- had to --fake social_auth 0003
+
+Migrations pass, still not working.
+
+p - gunicorn hosed - run manually, works. no more --debug, but that's not the only thing.
+d - wysiwyg - django-wysiwyg, needed by quickpages - 500 error in admin.
+d - xvfb for testing?
+
+

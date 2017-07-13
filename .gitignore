@@ -1,0 +1,108 @@
+# JJW 7/4/14-4/11/15, 6/3, 8/19, 8/30/15, 11/17/15, 5/8/16, 9/9/16
+*~
+*.pyc
+*.pyo
+*.tmp
+*.orig
+*.kate-swp
+*.sublime-workspace
+/apps/stheme/templates/*.html
+/apps/stheme/templates/*.css
+/apps/stheme/templates/*.js
+/apps/stheme/templates/assan/*.html
+/apps/stheme/templates/assan/*.css
+/apps/stheme/templates/assan/*.js
+/apps/stheme/templates/tshop/*.html
+/apps/stheme/templates/tshop/*.css
+/apps/stheme/templates/tshop/*.js
+/apps/stheme/templates/legacy/*.html
+/apps/stheme/templates/legacy/*.css
+/apps/stheme/templates/legacy/*.js
+/apps/stheme/templates/quickpages/*.html
+/apps/home/static/css/site.css
+/conf/src
+/src
+/static
+/eracks/whoosh_index
+nohup.out
+*-outfile.html
+/media/test_results_screens/*
+*_admin_thumbnail.jp*g
+*_admin_thumbnail.png
+*_admin_thumbnail.gif
+*_thumbnail.jp*g
+*_thumbnail.JP*G
+*_thumbnail.png
+*_thumbnail.gif
+*_large.jp*g
+*_large.JP*G
+*_large.png
+*_large.gif
+*_big.jp*g
+*_big.JP*G
+*_big.png
+*_big.gif
+*_medium.jp*g
+*_medium.JP*G
+*_medium.png
+*_medium.gif
+*_small.jp*g
+*_small.JP*G
+*_small.png
+*_small.gif
+/validationerrors
+/conf/env
+/conf/src
+/node_modules
+/.wercker
+/.vagrant
+/media/_versions/
+
+
+# exclude temp 'bar separated values' from my passmark import scripts - JJW
+*.bsv
+
+
+# Compiled source #
+###################
+*.com
+
+# JJW workaround obscure .gitignore bug - 
+# several subdirs down, ...cycle.com/.../styles.css not ignored, but ...cycle.com/.../styles.csss is 
+# (and so is README.txt)
+!*cycle.com
+
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

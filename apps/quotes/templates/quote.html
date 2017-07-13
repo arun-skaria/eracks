@@ -1,0 +1,144 @@
+{% extends "base.html" %}
+
+{% block css %}
+{{ block.super }}
+
+<style type="text/css">
+
+table.quotetop {
+  width: 50%;
+}
+.quotetop, .quotemain {
+  font-size: larger;
+}
+.quotetop th, .quotemain th {
+  font-weight: bold;
+}
+.quotetop th, .quotetop td {
+  padding: 10px;
+  text-align: left;
+}
+.quotemain pre {
+  border: initial;
+  font-family: sans-serif;
+  margin: initial;
+  background: initial;
+}
+.quoteimage {
+  max-width: 300px;
+}
+.quotelineimage {
+  max-width: 150px;
+}
+form .btn-primary {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-right: 50px;
+}
+
+</style>
+
+{% endblock css %}
+
+
+{% block content %}
+
+{% load quote_tags %}
+
+{% with q.customer as c %}
+
+<img class="quoteimage pull-right" src="{{ q.image.url }}" alt="original image" />
+
+<h1>{{ title }}</h1>
+
+<h2>For {% firstof c.name c.user.username '(Unnamed Customer)' %}</h2>
+
+{% if c %}
+
+{% if c.title %}{{ c.title }}<br>{% endif %}
+{% if c.dept %}{{ c.dept }}<br>{% endif %}
+{% if c.email %}{{ c.email }}<br>{% endif %}
+{% if c.email2 %}{{ c.email2 }}<br>{% endif %}
+{% if c.phone %}{{ c.phone }}<br>{% endif %}
+{% if c.phone2 %}{{ c.phone2 }}<br>{% endif %}
+ {% if c.shipping_address %}
+  <addr>
+  {{ c.shipping_address }}
+  </addr>
+  <br>
+ {% endif %}
+{% endif %}
+
+{% if c.billing_address %}
+ <i>Billing:<br>
+ <addr>{{ c.billing_address }}</addr><br>
+{% endif %}
+<br>
+
+<table class="quotetop table"> {# border=1 style="display: inline-block;" #}
+ <tr><th>Valid for </th><td> {{ q.valid_for }} days</td></tr>
+ <tr><th>Approved by </th><td> {{ q.approved_by }}</td></tr>
+ <tr><th>Purchase Order # </th><td> {{ q.purchase_order }}</td></tr>
+ <tr><th>Customer reference or RFQ # </th><td> {{ q.customer_reference }}</td></tr>
+ <tr><th>Terms </th><td> {{ q.terms }}</td></tr>
+</table>
+
+{% comment %}
+<table style="display: inline-block; border:none; ">
+  <tr>
+    {% if q.image %}
+    <td><img width="200px" src="/media/{{ q.image }}" alt="original image"/></td>
+    {% else %}
+    <td></td>
+    {% endif %}
+  </tr>
+</table>
+{% endcomment %}
+
+<br>
+
+<table class="quotemain table"> {#  border=1> #}
+ <tr>
+  <th>Qty</th>
+  <th>Description</th>
+  <th>Image</th>
+  <th>Price</th>
+  <th>Ext</th>
+ <tr>
+
+{% for line in q.quotelineitem_set.all %}
+ <tr>
+  <td>{{ line.quantity }}</td>
+  <td><pre>{{ line.description|safe|linebreaks }}</pre></td>
+  {% if line.image %}
+   <td><img class="quotelineimage" src="{{ line.image.url }}" alt="Line Item Image"/></td>
+  {% else %}
+   <td> </td>
+  {% endif %}
+  <td>{{ line.price }}</td>
+ <td>{% multiply line.quantity line.price %} </td>
+ </tr>
+{% endfor %}
+</table>
+
+<form method=POST>
+ <input class="pull-left btn btn-primary btn-lg bg_gray nice green radius button" id="add" type="submit" name="add" value="Add to Cart" />
+</form>
+<form method=POST>
+ <input class="pull-left btn btn-primary btn-lg bg_gray nice green radius button" id="pdf" type="submit" name="pdf" value="Get PDF" />
+</form>
+
+{% endwith %}
+
+{% comment %}
+<h3><a href="{{ request.path }}.pdf">PDF Version
+1 {{ request.meta.RAW_URI }}
+2 {{ request.META.PATH_INFO }}
+3 {{ request.RAW_URI }}
+4 {{ request.PATH_INFO }}
+5 {{ request.path }}
+6 {{ request.META.HTTP_REFERER }}
+</a></h3>
+{% endcomment %}
+
+{% endblock %}

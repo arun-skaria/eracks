@@ -1,0 +1,806 @@
+- fields: {cities: 'Brooks, Capay, Clarksburg, Dunnigan, El Macero, Esparto, Guinda,
+      Knights Landing, Madison, Rumsey, Winters, Yolo, Zamora', count: 13, county: Yolo,
+    created: ! '2016-05-13 15:01:52.137096', name: Yolo, tax: '7.50', updated: ! '2016-05-13
+      15:14:34.271392'}
+  model: catax.catax
+  pk: 58414
+- fields: {cities: 'Broderick, Bryte, West Sacramento', count: 3, county: Yolo, created: ! '2016-05-13
+      15:01:52.196727', name: 'Yolo (Broderick, Bryte, West Sacramento)', tax: '8.00',
+    updated: ! '2016-05-13 15:14:34.396803'}
+  model: catax.catax
+  pk: 58415
+- fields: {cities: Davis, count: 1, county: Yolo, created: ! '2016-05-13 15:01:52.230012',
+    name: Yolo (Davis), tax: '8.50', updated: ! '2016-05-13 15:14:34.421300'}
+  model: catax.catax
+  pk: 58416
+- fields: {cities: Woodland, count: 1, county: Yolo, created: ! '2016-05-13 15:01:52.238282',
+    name: Yolo (Woodland), tax: '8.30', updated: ! '2016-05-13 15:14:34.437936'}
+  model: catax.catax
+  pk: 58417
+- fields: {cities: 'Almaden Valley, Alviso, Blossom Hill, Blossom Valley, Cambrian
+      Park, Coyote, Cupertino, Gilroy, Holy City, Lorre Estates, Los Altos, Los Altos
+      Hills, Los Gatos, Milpitas, Moffett Field, Monta Vista, Monte Sereno, Morgan
+      Hill, Mount Hamilton, Mountain View, New Almaden, Palo Alto, Permanente, Redwood
+      Estates, San Jose, San Martin, San Tomas, Santa Clara, Saratoga, Stanford, Sunnyvale,
+      Valley Fair', count: 32, county: Santa Clara, created: ! '2016-05-13 15:01:52.246546',
+    name: Santa Clara, tax: '8.80', updated: ! '2016-05-13 15:14:34.471349'}
+  model: catax.catax
+  pk: 58418
+- fields: {cities: Campbell, count: 1, county: Santa Clara, created: ! '2016-05-13
+      15:01:52.254836', name: Santa Clara (Campbell), tax: '9.00', updated: ! '2016-05-13
+      15:14:34.519794'}
+  model: catax.catax
+  pk: 58419
+- fields: {cities: 'Bear Valley, Bridgeport, Camp Curry, Catheys Valley, Colorado,
+      Coulterville, Curry Village, El Portal, Fish Camp, Hornitos, Mariposa, Midpines,
+      Tuolumne Meadows, Wawona, Yosemite Lodge, Yosemite National Park', count: 16,
+    county: Mariposa, created: ! '2016-05-13 15:01:52.263387', name: Mariposa, tax: '8.00',
+    updated: ! '2016-05-13 15:14:34.552061'}
+  model: catax.catax
+  pk: 58420
+- fields: {cities: 'Bard, Bombay Beach, Brawley, Calipatria, El Centro, Heber, Holtville,
+      Imperial, Niland, Ocotillo, Palo Verde, Plaster City, Salton City, Seeley, Westmorland,
+      Winterhaven', count: 16, county: Imperial, created: ! '2016-05-13 15:01:52.271672',
+    name: Imperial, tax: '8.00', updated: ! '2016-05-13 15:14:34.562799'}
+  model: catax.catax
+  pk: 58421
+- fields: {cities: Calexico, count: 1, county: Imperial, created: ! '2016-05-13 15:01:52.280327',
+    name: Imperial (Calexico), tax: '8.50', updated: ! '2016-05-13 15:14:34.571063'}
+  model: catax.catax
+  pk: 58422
+- fields: {cities: 'Aliso Viejo, Anaheim, Atwood, Balboa, Balboa Island, Ballroad,
+      Bolsa, Brea, Brookhurst Center, Buena Park, Capistrano Beach, Corona Del Mar,
+      Costa Mesa, Coto De Caza, Cowan Heights, Cypress, Dana Point, East Irvine, El
+      Modena, El Toro, El Toro M.C.A.S., Foothill Ranch, Fountain Valley, Fullerton,
+      Garden Grove, Huntington, Huntington Beach, Irvine, La Palma, Ladera Ranch,
+      Laguna Beach, Laguna Hills, Laguna Niguel, Laguna Woods, Lake Forest, Leisure
+      World, Leisure World, Los Alamitos, Mariner, Midway City, Mission Viejo, Monarch
+      Beach, Newport Beach, Orange, Placentia, Rancho Santa Margarita, Rossmoor, San
+      Clemente, San Juan Capistrano, San Juan Plaza, Santa Ana, Seal Beach, Silverado
+      Canyon, South Laguna, Sunset Beach, Surfside, Trabuco Canyon, Tustin, University
+      Park, Villa Park, Westminster, Yorba Linda', count: 62, county: Orange, created: ! '2016-05-13
+      15:01:52.288255', name: Orange, tax: '8.00', updated: ! '2016-05-13 15:14:34.579475'}
+  model: catax.catax
+  pk: 58423
+- fields: {cities: La Habra, count: 1, county: Orange, created: ! '2016-05-13 15:01:52.296558',
+    name: Orange (La Habra), tax: '8.50', updated: ! '2016-05-13 15:14:34.587765'}
+  model: catax.catax
+  pk: 58424
+- fields: {cities: Stanton, count: 1, county: Orange, created: ! '2016-05-13 15:01:52.304826',
+    name: Orange (Stanton), tax: '9.00', updated: ! '2016-05-13 15:14:34.596132'}
+  model: catax.catax
+  pk: 58425
+- fields: {cities: 'Ahwahnee, Bass Lake, Chowchilla, Coarsegold, Madera, North Fork,
+      Oakhurst, O''Neals, Raymond, Red Top, Wishon', count: 11, county: Madera, created: ! '2016-05-13
+      15:01:52.313124', name: Madera, tax: '8.00', updated: ! '2016-05-13 15:14:34.604398'}
+  model: catax.catax
+  pk: 58426
+- fields: {cities: 'Almanor, Beckwourth, Belden, Blairsden, Canyondam, Chester, Chilcoot,
+      Clio, Crescent Mills, Cromberg, Graeagle, Greenville, Keddie, La Porte, Meadow
+      Valley, Peninsula Village, Portola, Quincy, Sloat, Spring Garden, Storrie, Taylorsville,
+      Twain, Vinton, Virgilia', count: 25, county: Plumas, created: ! '2016-05-13
+      15:01:52.321431', name: Plumas, tax: '7.50', updated: ! '2016-05-13 15:14:34.612710'}
+  model: catax.catax
+  pk: 58427
+- fields: {cities: 'Big Oak Flat, Chinese Camp, Columbia, Dardanelle, Groveland, Jamestown,
+      Long Barn, Mather, Mi-Wuk Village, Moccasin, Pinecrest, Soulsbyville, Standard,
+      Stanislaus, Strawberry, Tuolumne, Twain Harte', count: 17, county: Tuolumne,
+    created: ! '2016-05-13 15:01:52.329976', name: Tuolumne, tax: '7.50', updated: ! '2016-05-13
+      15:14:34.622351'}
+  model: catax.catax
+  pk: 58428
+- fields: {cities: Sonora, count: 1, county: Tuolumne, created: ! '2016-05-13 15:01:52.344986',
+    name: Tuolumne (Sonora), tax: '8.00', updated: ! '2016-05-13 15:14:34.635045'}
+  model: catax.catax
+  pk: 58429
+- fields: {cities: 'American Canyon, Angwin, Calistoga, Deer Park, Imola, Napa, Oakville,
+      Pope Valley, Rutherford, Saint Helena, Spanish Flat, St. Helena, Steele Park,
+      Yountville', count: 14, county: Napa, created: ! '2016-05-13 15:01:52.354750',
+    name: Napa, tax: '8.00', updated: ! '2016-05-13 15:14:34.646079'}
+  model: catax.catax
+  pk: 58430
+- fields: {cities: 'Presidio, San Francisco', count: 2, county: San Francisco, created: ! '2016-05-13
+      15:01:52.371601', name: San Francisco, tax: '8.80', updated: ! '2016-05-13 15:14:34.654452'}
+  model: catax.catax
+  pk: 58431
+- fields: {cities: 'Alleghany, Calpine, Downieville, Goodyears Bar, Loyalton, Sattley,
+      Sierra City, Sierraville', count: 8, county: Sierra, created: ! '2016-05-13
+      15:01:52.379767', name: Sierra, tax: '7.50', updated: ! '2016-05-13 15:14:34.676615'}
+  model: catax.catax
+  pk: 58432
+- fields: {cities: 'Alpaugh, Badger, California Hot Springs, Camp Kaweah, Camp Nelson,
+      Cutler, Ducor, Earlimart, East Porterville, Exeter, Giant Forest, Goshen, Ivanhoe,
+      Johnsondale, Kaweah, Kings Canyon National Park, Lemoncove, Lindsay, Linnell,
+      London, Mineral King, Mooney, Orosi, Pixley, Plainview, Poplar, Posey, Richgrove,
+      Sequoia National Park, Springville, Strathmore, Sultana, Tagus Ranch, Terra
+      Bella, Three Rivers, Tipton, Town Center, Traver, Waukena, Woodlake, Woodville,
+      Yettem', count: 42, county: Tulare, created: ! '2016-05-13 15:01:52.388106',
+    name: Tulare, tax: '8.00', updated: ! '2016-05-13 15:14:34.687786'}
+  model: catax.catax
+  pk: 58433
+- fields: {cities: 'Farmersville, Porterville, Tulare', count: 3, county: Tulare,
+    created: ! '2016-05-13 15:01:52.403249', name: 'Tulare (Farmersville, Porterville,
+      Tulare)', tax: '8.50', updated: ! '2016-05-13 15:14:34.696340'}
+  model: catax.catax
+  pk: 58434
+- fields: {cities: Visalia, count: 1, county: Tulare, created: ! '2016-05-13 15:01:52.413094',
+    name: Tulare (Visalia), tax: '8.30', updated: ! '2016-05-13 15:14:34.704400'}
+  model: catax.catax
+  pk: 58435
+- fields: {cities: Dinuba, count: 1, county: Tulare, created: ! '2016-05-13 15:01:52.421475',
+    name: Tulare (Dinuba), tax: '8.80', updated: ! '2016-05-13 15:14:34.721035'}
+  model: catax.catax
+  pk: 58436
+- fields: {cities: 'Aguanga, Alberhill, Anza, Arlington, Banning, Beaumont, Bermuda
+      Dunes, Blythe, Cabazon, Calimesa, Canyon Lake, Cherry Valley, Chiriaco Summit,
+      Corona, Desert Center, Desert Hot Springs, Eagle Mountain, Eastvale, Edgemont,
+      Frontera, Garnet, Gillman Hot Springs, Glen Avon, Hemet, Highgrove, Homeland,
+      Homestead, Idyllwild, Indian Wells, Indio, Jurupa Valley, La Quinta, Lake Elsinore,
+      Lakeview, Lost Lake, March A.F.B., Mead Valley, Meadowbrook, Mecca, Menifee,
+      Midland, Mira Loma, Moreno Valley, Mountain Center, Murrieta, Norco, North Palm
+      Springs, North Shore, Nuevo, Oasis, Palm City, Palm Desert, Pedley, Perris,
+      Quail Valley, Rancho California, Rancho Mirage, Ripley, Riverside, Romoland,
+      Rubidoux, San Jacinto, Sky Valley, Sun City, Sunnymead, Temecula, Thermal, Thousand
+      Palms, Whitewater, Wildomar, Winchester', count: 71, county: Riverside, created: ! '2016-05-13
+      15:01:52.429731', name: Riverside, tax: '8.00', updated: ! '2016-05-13 15:14:34.729422'}
+  model: catax.catax
+  pk: 58437
+- fields: {cities: 'Cathedral City, Coachella, Palm Springs, Smoke Tree', count: 4,
+    county: Riverside, created: ! '2016-05-13 15:01:52.438029', name: 'Riverside (Cathedral
+      City, Coachella, Palm Springs, Smoke Tree)', tax: '9.00', updated: ! '2016-05-13
+      15:14:34.737910'}
+  model: catax.catax
+  pk: 58438
+- fields: {cities: 'Alameda, Army Terminal, Ashland, Berkeley, Bradford, Castro Valley,
+      Cresta Blanca, Dublin, Elmwood, Emeryville, Fremont, Government Island, Heyer,
+      Landscape, Livermore, Naval Air Station, Naval Hospital, Naval Supply Center,
+      Newark, Oakland, Piedmont, Pleasanton, San Lorenzo, South Shore, Sunol, Warm
+      Springs', count: 26, county: Alameda, created: ! '2016-05-13 15:01:52.446355',
+    name: Alameda, tax: '9.50', updated: ! '2016-05-13 15:14:34.754382'}
+  model: catax.catax
+  pk: 58439
+- fields: {cities: 'Albany, Hayward, San Leandro, Union City', count: 4, county: Alameda,
+    created: ! '2016-05-13 15:01:52.454883', name: 'Alameda (Albany, Hayward, San
+      Leandro, Union City)', tax: '10.00', updated: ! '2016-05-13 15:14:34.762807'}
+  model: catax.catax
+  pk: 58440
+- fields: {cities: 'Arbuckle, College City, Colusa, Deleven, Grimes, Maxwell, Princeton,
+      Sites, Stonyford', count: 9, county: Colusa, created: ! '2016-05-13 15:01:52.463401',
+    name: Colusa, tax: '7.50', updated: ! '2016-05-13 15:14:34.771033'}
+  model: catax.catax
+  pk: 58441
+- fields: {cities: Williams, count: 1, county: Colusa, created: ! '2016-05-13 15:01:52.471411',
+    name: Colusa (Williams), tax: '8.00', updated: ! '2016-05-13 15:14:34.779322'}
+  model: catax.catax
+  pk: 58442
+- fields: {cities: 'Big Bar, Burnt Ranch, Denny, Douglas City, Forest Glen, Hayfork,
+      Helena, Hyampom, Island Mountain, Junction City, Lewiston, Mad River, Ruth,
+      Salyer, Trinity Center, Weaverville, Zenia', count: 17, county: Trinity, created: ! '2016-05-13
+      15:01:52.479762', name: Trinity, tax: '7.50', updated: ! '2016-05-13 15:14:34.787681'}
+  model: catax.catax
+  pk: 58443
+- fields: {cities: 'Birds Landing, Dairy Farm, Dixon, Elmira, Larwin Plaza, Liberty
+      Farms, Suisun City', count: 7, county: Solano, created: ! '2016-05-13 15:01:52.488268',
+    name: Solano, tax: '7.60', updated: ! '2016-05-13 15:14:34.796009'}
+  model: catax.catax
+  pk: 58444
+- fields: {cities: 'Benicia, Fairfield, Mare Island, Travis A.F.B., Vallejo', count: 5,
+    county: Solano, created: ! '2016-05-13 15:01:52.496430', name: 'Solano (Benicia,
+      Fairfield, Mare Island, Travis A.F.B., Vallejo)', tax: '8.60', updated: ! '2016-05-13
+      15:14:34.804348'}
+  model: catax.catax
+  pk: 58445
+- fields: {cities: Rio Vista, count: 1, county: Solano, created: ! '2016-05-13 15:01:52.504912',
+    name: Solano (Rio Vista), tax: '8.40', updated: ! '2016-05-13 15:14:34.812736'}
+  model: catax.catax
+  pk: 58446
+- fields: {cities: Vacaville, count: 1, county: Solano, created: ! '2016-05-13 15:01:52.513189',
+    name: Solano (Vacaville), tax: '7.90', updated: ! '2016-05-13 15:14:34.834943'}
+  model: catax.catax
+  pk: 58447
+- fields: {cities: 'Antelope, Carmichael, Citrus Heights, Courtland, Elk Grove, Elverta,
+      Fair Oaks, Folsom, Freeport, Herald, Hood, Isleton, Locke, Mather, McClellan,
+      North Highlands, Orangevale, Rancho Murieta, Represa, Rio Linda, Ryde, Sherman
+      Island, Sloughhouse, Walnut Grove, Wilton', count: 25, county: Sacramento, created: ! '2016-05-13
+      15:01:52.521427', name: Sacramento, tax: '8.00', updated: ! '2016-05-13 15:14:34.845982'}
+  model: catax.catax
+  pk: 58448
+- fields: {cities: 'Galt, Gold River, Mather, Rancho Cordova , Sacramento', count: 5,
+    county: Sacramento, created: ! '2016-05-13 15:01:52.529760', name: 'Sacramento
+      (Galt, Gold River, Mather, Rancho Cordova , Sacramento)', tax: '8.50', updated: ! '2016-05-13
+      15:14:34.855467'}
+  model: catax.catax
+  pk: 58449
+- fields: {cities: 'Agua Caliente Springs, Alpine, Balboa Park, Bonita, Bonsall, Borrego
+      Springs, Bostonia, Boulevard, Camp Pendleton, Campo, Cardiff By The Sea, Carlsbad,
+      Chula Vista, College Grove Center, Coronado, Crest, Del Mar, Descanso, Dulzura,
+      Encinitas, Escondido, Fallbrook, Fallbrook Junction, Flinn Springs, Guatay,
+      Harbison Canyon, Hillcrest, Imperial Beach, Jacumba, Jamacha, Jamul, Johnstown,
+      Julian, La Jolla, Lake San Marcos, Lakeside, Lemon Grove, Leucadia, Lincoln
+      Acres, Miramar, Mount Laguna, Naval, Naval Air Station, Naval Hospital, Naval
+      Training Center, Oceanside, Ocotillo Wells, Olivenhain, Otay, Pala, Palm City,
+      Palomar Mountain, Pauma Valley, Pine Valley, Potrero, Poway, Rainbow, Ramona,
+      Ranchita, Rancho Bernardo, Rancho Santa Fe, San Carlos, San Diego, San Luis
+      Rey, San Marcos, San Ysidro, Santa Ysabel, Santee, Solana Beach, Spring Valley,
+      Sunnyside, Tecate, Tierra Del Sol, Tierrasanta, Valley Center, Warner Springs',
+    count: 76, county: San Diego, created: ! '2016-05-13 15:01:52.538338', name: San
+      Diego, tax: '8.00', updated: ! '2016-05-13 15:14:34.876822'}
+  model: catax.catax
+  pk: 58450
+- fields: {cities: 'El Cajon, Vista', count: 2, county: San Diego, created: ! '2016-05-13
+      15:01:52.546445', name: 'San Diego (El Cajon, Vista)', tax: '8.50', updated: ! '2016-05-13
+      15:14:34.887796'}
+  model: catax.catax
+  pk: 58451
+- fields: {cities: National City, count: 1, county: San Diego, created: ! '2016-05-13
+      15:01:52.567789', name: San Diego (National City), tax: '9.00', updated: ! '2016-05-13
+      15:14:34.896082'}
+  model: catax.catax
+  pk: 58452
+- fields: {cities: La Mesa, count: 1, county: San Diego, created: ! '2016-05-13 15:01:52.613107',
+    name: San Diego (La Mesa), tax: '8.80', updated: ! '2016-05-13 15:14:34.904411'}
+  model: catax.catax
+  pk: 58453
+- fields: {cities: 'Atherton, Belmont, Brisbane, Burlingame, Colma, Daly City, East
+      Palo Alto, El Granada, Emerald Hills, Foster City, Hillsborough, La Honda, Ladera,
+      Loma Mar, Marsh Manor, Menlo Park, Millbrae, Montara, Moss Beach, Pacifica,
+      Pescadero, Portola Valley, Redwood City, San Bruno, San Carlos, San Gregorio,
+      South San Francisco, Woodside', count: 28, county: San Mateo, created: ! '2016-05-13
+      15:01:52.638689', name: San Mateo, tax: '9.00', updated: ! '2016-05-13 15:14:34.912753'}
+  model: catax.catax
+  pk: 58454
+- fields: {cities: 'Hillsdale, San Mateo', count: 2, county: San Mateo, created: ! '2016-05-13
+      15:01:52.671993', name: 'San Mateo (Hillsdale, San Mateo)', tax: '9.30', updated: ! '2016-05-13
+      15:14:34.921094'}
+  model: catax.catax
+  pk: 58455
+- fields: {cities: Half Moon Bay, count: 1, county: San Mateo, created: ! '2016-05-13
+      15:01:52.682045', name: San Mateo (Half Moon Bay), tax: '9.50', updated: ! '2016-05-13
+      15:14:34.929423'}
+  model: catax.catax
+  pk: 58456
+- fields: {cities: 'Belvedere, Bolinas, Dillon Beach, Dogtown, Fallon, Forest Knolls,
+      Inverness, Kentfield, Lagunitas, Marin City, Marshall, Mill Valley, Nicasio,
+      Olema, Point Reyes Station, Ross, San Geronimo, San Quentin, Stinson Beach,
+      Tamal, Tiburon, Tomales, Woodacre', count: 23, county: Marin, created: ! '2016-05-13
+      15:01:52.715024', name: Marin, tax: '8.50', updated: ! '2016-05-13 15:14:34.937725'}
+  model: catax.catax
+  pk: 58457
+- fields: {cities: 'Corte Madera, Fairfax, Greenbrae, Hamilton A.F.B., Ignacio, Larkspur,
+      Novato, San Anselmo, Sausalito', count: 9, county: Marin, created: ! '2016-05-13
+      15:01:52.754810', name: 'Marin (Corte Madera, Fairfax, Greenbrae, Hamilton A.F.B.,
+      Ignacio, Larkspur, Novato, San Anselmo, Sausalito)', tax: '9.00', updated: ! '2016-05-13
+      15:14:34.946096'}
+  model: catax.catax
+  pk: 58458
+- fields: {cities: San Rafael, count: 1, county: Marin, created: ! '2016-05-13 15:01:52.803241',
+    name: Marin (San Rafael), tax: '9.30', updated: ! '2016-05-13 15:14:34.954402'}
+  model: catax.catax
+  pk: 58459
+- fields: {cities: 'Aptos, Ben Lomond, Big Basin, Bonny Doon, Boulder Creek, Brookdale,
+      Corralitos, Davenport, Felton, Freedom, La Selva Beach, Live Oak, Lockheed,
+      Monterey Bay Academy, Mount Hermon, Opal Cliffs, Rio Del Mar, Soquel', count: 18,
+    county: Santa Cruz, created: ! '2016-05-13 15:01:52.813002', name: Santa Cruz,
+    tax: '8.30', updated: ! '2016-05-13 15:14:34.962706'}
+  model: catax.catax
+  pk: 58460
+- fields: {cities: 'Capitola, Santa Cruz, Scotts Valley, Seabright', count: 4, county: Santa
+      Cruz, created: ! '2016-05-13 15:01:52.823738', name: 'Santa Cruz (Capitola,
+      Santa Cruz, Scotts Valley, Seabright)', tax: '8.80', updated: ! '2016-05-13
+      15:14:34.971032'}
+  model: catax.catax
+  pk: 58461
+- fields: {cities: 'Freedom, Watsonville', count: 2, county: Santa Cruz, created: ! '2016-05-13
+      15:01:52.836464', name: 'Santa Cruz (Freedom, Watsonville)', tax: '9.00', updated: ! '2016-05-13
+      15:14:34.979360'}
+  model: catax.catax
+  pk: 58462
+- fields: {cities: 'Amador City, Bear River Lake, Drytown, Fiddletown, Ione, Jackson,
+      Kit Carson, Martell, Pine Grove, Pioneer, Plymouth, River Pines, Silver Lake,
+      Sutter Creek, Volcano', count: 15, county: Amador, created: ! '2016-05-13 15:01:52.846650',
+    name: Amador, tax: '8.00', updated: ! '2016-05-13 15:14:34.987703'}
+  model: catax.catax
+  pk: 58463
+- fields: {cities: 'Acton, Agoura, Agoura Hills, Agua Dulce, Alhambra, Almondale,
+      Alondra, Altadena, Antelope Acres, Arcadia, Arleta, Artesia, Athens, Azusa,
+      Bailey, Baldwin Park, Barrington, Bassett, Bel Air Estates, Bell, Bell Gardens,
+      Bellflower, Beverly Hills, Bouquet Canyon, Bradbury, Brents Junction, Brentwood,
+      Burbank, Cabrillo, Calabasas, Calabasas Highlands, Calabasas Park, Canoga Annex,
+      Canoga Park, Canyon Country, Carson, Castaic, Cedar, Century City, Cerritos,
+      Charter Oak, Chatsworth, City of Industry, City Terrace, Claremont, Cole, Compton,
+      Cornell, Covina, Crenshaw, Cudahy, Del Sur, Diamond Bar, Downey, Duarte, Eagle
+      Rock, East Los Angeles, East Lynwood, East Rancho Dominguez, East San Pedro,
+      Eastgate, Echo Park, El Segundo, Elizabeth Lake, Encino, Flintridge, Florence,
+      Forest Park, Friendly Valley, Gardena, Glassell Park, Glendale, Glendora, Gorman,
+      Granada Hills, Green Valley, Hacienda Heights, Harbor City, Hawaiian Gardens,
+      Hawthorne, Hazard, Hermosa Beach, Hidden Hills, Highland Park, Hollywood, Honby,
+      Huntington Park, Hyde Park, Industry, Irwindale, Kagel Canyon, L.A. Airport,
+      La Canada- Flintridge, La Crescenta, La Habra Heights, La Puente, La Verne,
+      La Vina, Ladera Heights, Lake Hughes, Lake Los Angeles, Lakeview Terrace, Lakewood,
+      Lancaster, Lang, Lawndale, Lennox, Leona Valley, Lincoln Heights, Littlerock,
+      Llano, Lomita, Long Beach, Longview, Los Angeles, Los Nietos, Lugo, Lynwood,
+      Maclay, Malibu, Manhattan Beach, Mar Vista, Marcelina, Marina Del Rey, Maywood,
+      Mint Canyon, Mission Hills, Moneta, Monrovia, Montebello, Monterey Park, Montrose,
+      Mount Wilson, Naples, Newhall, North Gardena, North Hills, North Hollywood,
+      Northridge, Norwalk, Oban, Olive View, Pacific Palisades, Pacoima, Pallett,
+      Palmdale, Palos Verdes Estates, Palos Verdes/Peninsula, Panorama City, Paramount,
+      Pasadena, Pearblossom, Pearland, Perry, Pinetree, Playa Del Rey, Pomona, Porter
+      Ranch, Portuguese Bend, Pt. Dume, Quartz Hill, Rancho Dominguez, Rancho Palos
+      Verdes, Rancho Park, Ravenna, Redondo Beach, Reseda, Rimpau, Rolling Hills,
+      Rolling Hills Estates, Rose Bowl, Rosemead, Rowland Heights, San Dimas, San
+      Gabriel, San Marino, San Pedro, Santa Clarita, Santa Fe Springs, Saugus, Sawtelle,
+      Seminole Hot Springs, Sepulveda, Sherman Oaks, Sierra Madre, Signal Hill, Sleepy
+      Valley, Solemint, South Pasadena, South Whittier, Stevenson Ranch, Studio City,
+      Sulphur Springs, Sun Valley, Sunland, Sylmar, Tarzana, Temple City, Terminal
+      Island, Toluca Lake, Topanga, Topanga Park, Torrance, Tujunga, Universal City,
+      Val Verde Park, Valencia, Valinda, Valley Village, Valyermo, Van Nuys, Vasquez
+      Rocks, Venice, Verdugo City, Vernon, Veteran''s Hospital, View Park, Vincent,
+      Walnut, Walnut Park, Watts, West Covina, West Hills, West Hollywood, West Los
+      Angeles, Westchester, Westlake, Westlake Village, Westwood, Whittier, Willowbrook,
+      Wilmington, Wilsona Gardens, Windsor Hills, Winnetka, Woodland Hills', count: 236,
+    county: Los Angeles, created: ! '2016-05-13 15:01:52.858126', name: Los Angeles,
+    tax: '9.00', updated: ! '2016-05-13 15:14:34.996844'}
+  model: catax.catax
+  pk: 58464
+- fields: {cities: 'Avalon, City of Commerce, Commerce, Culver City, El Monte, Inglewood,
+      San Fernando, Santa Monica, South El Monte', count: 9, county: Los Angeles,
+    created: ! '2016-05-13 15:01:52.871650', name: 'Los Angeles (Avalon, City of Commerce,
+      Commerce, Culver City, El Monte, Inglewood, San Fernando, Santa Monica, South
+      El Monte)', tax: '9.50', updated: ! '2016-05-13 15:14:35.018490'}
+  model: catax.catax
+  pk: 58465
+- fields: {cities: 'Biola College, La Mirada, Pico Rivera, South Gate', count: 4,
+    county: Los Angeles, created: ! '2016-05-13 15:01:52.879678', name: 'Los Angeles
+      (Biola College, La Mirada, Pico Rivera, South Gate)', tax: '10.00', updated: ! '2016-05-13
+      15:14:35.035080'}
+  model: catax.catax
+  pk: 58466
+- fields: {cities: 'Adin, Alturas, Canby, Cedarville, Davis Creek, Eagleville, Fort
+      Bidwell, Lake City, Likely, Lookout, Willow Ranch', count: 11, county: Modoc,
+    created: ! '2016-05-13 15:01:52.888524', name: Modoc, tax: '7.50', updated: ! '2016-05-13
+      15:14:35.051723'}
+  model: catax.catax
+  pk: 58467
+- fields: {cities: 'Bieber, Doyle, Herlong, Horse Lake, Janesville, Johnstonville,
+      Juniper, Litchfield, Little Valley, Madeline, Milford, Nubieber, Ravendale,
+      Standish, Susanville, Termo, Wendel, Westwood', count: 18, county: Lassen, created: ! '2016-05-13
+      15:01:52.896798', name: Lassen, tax: '7.50', updated: ! '2016-05-13 15:14:35.068390'}
+  model: catax.catax
+  pk: 58468
+- fields: {cities: 'Bangor, Berry Creek, Biggs, Butte Meadows, Chico, Clipper Mills,
+      Cohasset, Durham, Feather Falls, Forbestown, Forest Ranch, Gridley, Magalia,
+      Nelson, Oroville, Palermo, Pulga, Richardson Springs, Richvale, Stirling City,
+      Yankee Hill', count: 21, county: Butte, created: ! '2016-05-13 15:01:52.906422',
+    name: Butte, tax: '7.50', updated: ! '2016-05-13 15:14:35.084994'}
+  model: catax.catax
+  pk: 58469
+- fields: {cities: Paradise, count: 1, county: Butte, created: ! '2016-05-13 15:01:52.919884',
+    name: Butte (Paradise), tax: '8.00', updated: ! '2016-05-13 15:14:35.101635'}
+  model: catax.catax
+  pk: 58470
+- fields: {cities: 'Cedar Ridge, Chicago Park, Floriston, Lake City, Norden, North
+      San Juan, Penn Valley, Rough and Ready, Soda Springs', count: 9, county: Nevada,
+    created: ! '2016-05-13 15:01:52.930176', name: Nevada, tax: '7.60', updated: ! '2016-05-13
+      15:14:35.118309'}
+  model: catax.catax
+  pk: 58471
+- fields: {cities: Truckee, count: 1, county: Nevada, created: ! '2016-05-13 15:01:52.937941',
+    name: Nevada (Truckee), tax: '8.40', updated: ! '2016-05-13 15:14:35.134964'}
+  model: catax.catax
+  pk: 58472
+- fields: {cities: Nevada City, count: 1, county: Nevada, created: ! '2016-05-13 15:01:52.946629',
+    name: Nevada (Nevada City), tax: '8.50', updated: ! '2016-05-13 15:14:35.151622'}
+  model: catax.catax
+  pk: 58473
+- fields: {cities: Grass Valley, count: 1, county: Nevada, created: ! '2016-05-13
+      15:01:52.954735', name: Nevada (Grass Valley), tax: '8.10', updated: ! '2016-05-13
+      15:14:35.168323'}
+  model: catax.catax
+  pk: 58474
+- fields: {cities: 'Albion, Boonville, Branscomb, Calpella, Caspar, Comptche, Covelo,
+      Cummings, Dos Rios, Elk, Gualala, Hopland, Laytonville, Leggett, Littleriver,
+      Mendocino, Navarro, Philo, Piercy, Potter Valley, Redwood Valley, Spyrock, Talmage,
+      Westport, Yorkville', count: 25, county: Mendocino, created: ! '2016-05-13 15:01:52.963190',
+    name: Mendocino, tax: '7.60', updated: ! '2016-05-13 15:14:35.184941'}
+  model: catax.catax
+  pk: 58475
+- fields: {cities: 'Point Arena, Ukiah, Willits', count: 3, county: Mendocino, created: ! '2016-05-13
+      15:01:52.971485', name: 'Mendocino (Point Arena, Ukiah, Willits)', tax: '8.10',
+    updated: ! '2016-05-13 15:14:35.201575'}
+  model: catax.catax
+  pk: 58476
+- fields: {cities: Fort Bragg, count: 1, county: Mendocino, created: ! '2016-05-13
+      15:01:52.979727', name: Mendocino (Fort Bragg), tax: '8.60', updated: ! '2016-05-13
+      15:14:35.218261'}
+  model: catax.catax
+  pk: 58477
+- fields: {cities: 'Bella Vista, Big Bend, Burney, Cassel, Castella, Central Valley,
+      Cottonwood, Enterprise, Fall River Mills, French Gulch, Glenburn, Hat Creek,
+      Igo, Keswick, Lakehead, Manzanita Lake, McArthur, Millville, Montgomery Creek,
+      Oak Run, O''Brien, Old Station, Olinda, Ono, Palo Cedro, Platina, Project City,
+      Redding, Round Mountain, Shasta, Shasta Lake, Shingletown, Summit City, Whiskeytown,
+      Whitmore, Wildwood', count: 36, county: Shasta, created: ! '2016-05-13 15:01:52.989627',
+    name: Shasta, tax: '7.50', updated: ! '2016-05-13 15:14:35.234917'}
+  model: catax.catax
+  pk: 58478
+- fields: {cities: Anderson, count: 1, county: Shasta, created: ! '2016-05-13 15:01:53.003388',
+    name: Shasta (Anderson), tax: '8.00', updated: ! '2016-05-13 15:14:35.251548'}
+  model: catax.catax
+  pk: 58479
+- fields: {cities: 'Callahan, Cecilville, Clear Creek, Dorris, Dunsmuir, Edgewood,
+      Etna, Forks of Salmon, Fort Jones, Gazelle, Greenview, Grenada, Happy Camp,
+      Hilt, Hornbrook, Horse Creek, Kinyon, Klamath River, Lake Shastina, Macdoel,
+      McCloud, Montague, Mount Hebron, Pondosa, Sawyers Bar, Scott Bar, Seiad Valley,
+      Somes Bar, Tulelake, Weed, Yreka', count: 31, county: Siskiyou, created: ! '2016-05-13
+      15:01:53.013218', name: Siskiyou, tax: '7.50', updated: ! '2016-05-13 15:14:35.262654'}
+  model: catax.catax
+  pk: 58480
+- fields: {cities: Mount Shasta, count: 1, county: Siskiyou, created: ! '2016-05-13
+      15:01:53.021259', name: Siskiyou (Mount Shasta), tax: '7.80', updated: ! '2016-05-13
+      15:14:35.271035'}
+  model: catax.catax
+  pk: 58481
+- fields: {cities: 'Alta, Applegate, Auburn, Baxter, Bowman, Carnelian Bay, Chambers
+      Lodge, Colfax, Dutch Flat, Emigrant Gap, Foresthill, Gold Run, Granite Bay,
+      Homewood, Iowa Hill, Kings Beach, Lincoln, Loomis, Meadow Vista, Newcastle,
+      Olympic Valley, Penryn, Rocklin, Roseville, Sheridan, Sunset Whitney Ranch,
+      Tahoe City, Tahoe Vista, Tahoma, Weimar', count: 30, county: Placer, created: ! '2016-05-13
+      15:01:53.030033', name: Placer, tax: '7.50', updated: ! '2016-05-13 15:14:35.279791'}
+  model: catax.catax
+  pk: 58482
+- fields: {cities: 'Benton, Bridgeport, Coleville, Crowley Lake, June Lake, Lake Mary,
+      Lee Vining, Mono Lake, Sherwin Plaza, Toms Place, Topaz', count: 11, county: Mono,
+    created: ! '2016-05-13 15:01:53.038064', name: Mono, tax: '7.50', updated: ! '2016-05-13
+      15:14:35.287656'}
+  model: catax.catax
+  pk: 58483
+- fields: {cities: Mammoth Lakes, count: 1, county: Mono, created: ! '2016-05-13 15:01:53.046538',
+    name: Mono (Mammoth Lakes), tax: '8.00', updated: ! '2016-05-13 15:14:35.296125'}
+  model: catax.catax
+  pk: 58484
+- fields: {cities: 'Alamo, Bay Point, Bethel Island, Black Hawk, Brentwood, Byron,
+      Canyon, Clayton, Crockett, Danville, Diablo, Discovery Bay, Dollar Ranch, El
+      Sobrante, Fairmount, Kensington, Knightsen, Lafayette, Martinez, Mira Vista,
+      Oakley, Pacheco, Pleasant Hill, Port Costa, Rodeo, San Ramon, Selby, Shore Acres,
+      Walnut Creek', count: 29, county: Contra Costa, created: ! '2016-05-13 15:01:53.054718',
+    name: Contra Costa, tax: '8.50', updated: ! '2016-05-13 15:14:35.304349'}
+  model: catax.catax
+  pk: 58485
+- fields: {cities: 'Antioch, Concord, Hercules, Orinda, Pittsburg', count: 5, county: Contra
+      Costa, created: ! '2016-05-13 15:01:53.063063', name: 'Contra Costa (Antioch,
+      Concord, Hercules, Orinda, Pittsburg)', tax: '9.00', updated: ! '2016-05-13
+      15:14:35.312683'}
+  model: catax.catax
+  pk: 58486
+- fields: {cities: 'Moraga, Pinole, Rheem Valley, Richmond', count: 4, county: Contra
+      Costa, created: ! '2016-05-13 15:01:53.071507', name: 'Contra Costa (Moraga,
+      Pinole, Rheem Valley, Richmond)', tax: '9.50', updated: ! '2016-05-13 15:14:35.320978'}
+  model: catax.catax
+  pk: 58487
+- fields: {cities: San Pablo, count: 1, county: Contra Costa, created: ! '2016-05-13
+      15:01:53.079733', name: Contra Costa (San Pablo), tax: '9.30', updated: ! '2016-05-13
+      15:14:35.329339'}
+  model: catax.catax
+  pk: 58488
+- fields: {cities: El Cerrito, count: 1, county: Contra Costa, created: ! '2016-05-13
+      15:01:53.090423', name: Contra Costa (El Cerrito), tax: '10.00', updated: ! '2016-05-13
+      15:14:35.337622'}
+  model: catax.catax
+  pk: 58489
+- fields: {cities: 'Crescent City, Fort Dick, Gasquet, Klamath, Requa, Smith River',
+    count: 6, county: Del Norte, created: ! '2016-05-13 15:01:53.103274', name: Del
+      Norte, tax: '7.80', updated: ! '2016-05-13 15:14:35.345921'}
+  model: catax.catax
+  pk: 58490
+- fields: {cities: 'Clearlake Oaks, Cobb, Finley, Glenhaven, Hobergs, Kelseyville,
+      Loch Lomond, Lower Lake, Lucerne, Middletown, Nice, Upper Lake/ Upper Lake Valley,
+      Whispering Pines, Witter Springs', count: 14, county: Lake, created: ! '2016-05-13
+      15:01:53.113102', name: Lake, tax: '7.50', updated: ! '2016-05-13 15:14:35.354283'}
+  model: catax.catax
+  pk: 58491
+- fields: {cities: 'Clearlake, Clearlake Highlands, Clearlake Park, Lakeport', count: 4,
+    county: Lake, created: ! '2016-05-13 15:01:53.121257', name: 'Lake (Clearlake,
+      Clearlake Highlands, Clearlake Park, Lakeport)', tax: '8.00', updated: ! '2016-05-13
+      15:14:35.362620'}
+  model: catax.catax
+  pk: 58492
+- fields: {cities: 'Bakersfield, Bodfish, Boron, Buttonwillow, Caliente, California
+      City, Cantil, Del Kern, Di Giorgio, Edison, Edwards, Edwards A.F.B., Fellows,
+      Frazier Park, Glennville, Golden Hills, Greenacres, Homestead, Inyokern, Johannesburg,
+      Keene, Kernville, La Cresta Village, Lake Isabella, Lamont, Lebec, Lost Hills,
+      Maricopa, McFarland, McKittrick, Mettler, Miracle Hot Springs, Mojave, Monolith,
+      Mountain Mesa, North Edwards, Oildale, Onyx, Pond, Pumpkin Center, Randsburg,
+      Rio Bravo, Rosamond, Shafter, Taft, Tehachapi, Tupman, Vista Park, Wasco, Weldon,
+      Wheeler Ridge, Wofford Heights, Woody', count: 53, county: Kern, created: ! '2016-05-13
+      15:01:53.129817', name: Kern, tax: '7.50', updated: ! '2016-05-13 15:14:35.370954'}
+  model: catax.catax
+  pk: 58493
+- fields: {cities: 'Arvin, Delano', count: 2, county: Kern, created: ! '2016-05-13
+      15:01:53.137921', name: 'Kern (Arvin, Delano)', tax: '8.50', updated: ! '2016-05-13
+      15:14:35.379265'}
+  model: catax.catax
+  pk: 58494
+- fields: {cities: 'China Lake NWC, Ridgecrest', count: 2, county: Kern, created: ! '2016-05-13
+      15:01:53.146404', name: 'Kern (China Lake NWC, Ridgecrest)', tax: '8.30', updated: ! '2016-05-13
+      15:14:35.387688'}
+  model: catax.catax
+  pk: 58495
+- fields: {cities: 'Camarillo, Casitas Springs, Fillmore, Lake Sherwood, Meiners Oaks,
+      Montalvo, Moorpark, Newbury Park, Nyeland Acres, Oak Park, Oak View, Ojai, Piru,
+      Point Mugu, Santa Paula, Santa Rosa Valley, Saticoy, Simi Valley, Somis, Thousand
+      Oaks, Ventura, Westlake Village', count: 22, county: Ventura, created: ! '2016-05-13
+      15:01:53.154711', name: Ventura, tax: '7.50', updated: ! '2016-05-13 15:14:35.395932'}
+  model: catax.catax
+  pk: 58496
+- fields: {cities: 'Naval, Oxnard, Port Hueneme', count: 3, county: Ventura, created: ! '2016-05-13
+      15:01:53.163027', name: 'Ventura (Naval, Oxnard, Port Hueneme)', tax: '8.00',
+    updated: ! '2016-05-13 15:14:35.404241'}
+  model: catax.catax
+  pk: 58497
+- fields: {cities: 'Armona, Avenal, Corcoran, Hanford, Kettleman City, Lemoore, Naval
+      Air Station, Stratford', count: 8, county: Kings, created: ! '2016-05-13 15:01:53.171346',
+    name: Kings, tax: '7.50', updated: ! '2016-05-13 15:14:35.412591'}
+  model: catax.catax
+  pk: 58498
+- fields: {cities: 'Amargosa, Bartlett, Big Pine, Bishop, Cartago, Coso Junction,
+      Darwin, Death Valley, Death Valley Junction, Independence, Inyo, Keeler, Laws,
+      Little Lake, Lone Pine, Olancha, Shoshone, Swall Meadows, Tecopa', count: 19,
+    county: Inyo, created: ! '2016-05-13 15:01:53.179710', name: Inyo, tax: '8.00',
+    updated: ! '2016-05-13 15:14:35.426518'}
+  model: catax.catax
+  pk: 58499
+- fields: {cities: 'Adelanto, Alta Loma, Amboy, Angelus Oaks, Apple Valley, Argus,
+      Arrowbear Lake, Arrowhead Highlands, Baker, Barstow, Base Line, Big Bear City,
+      Big Bear Lake, Big River, Bloomington, Blue Jay, Bryn Mawr, Cadiz, Cedar Glen,
+      Cedarpines Park, Chino, Chino Hills, Cima, Colton, Crest Park, Crestline, Cross
+      Roads, Cucamonga, Daggett, Del Rosa, Earp, East Highlands, Eastside, Essex,
+      Etiwanda, Fawnskin, Fenner, Fontana, Forest Falls, Fort Irwin, George A.F.B.,
+      Grand Terrace, Green Valley Lake, Guasti, Havasu Lake, Helendale, Hesperia,
+      Highland, Hinkley, Ivanpah, Joshua Tree, Kelso, Lake Arrowhead, Landers, Lenwood,
+      Loma Linda, Los Serranos, Lucerne Valley, Ludlow, Lytle Creek, Marine Corps,
+      Mentone, Moonridge, Morongo Valley, Mountain Pass, Mt. Baldy, Muscoy, Needles,
+      Newberry, Newberry Springs, Nipton, Ontario, Oro Grande, Parker Dam, Patton,
+      Phelan, Pinon Hills, Pioneertown, Rancho Cucamonga, Red Mountain, Redlands,
+      Rialto, Rimforest, Running Springs, Skyforest, Smoke Tree, Sugarloaf, Summit,
+      Trona, Twentynine Palms, Twin Peaks, Upland, Victorville, Vidal, Westend, Wrightwood,
+      Yermo, Yucaipa, Yucca Valley', count: 99, county: San Bernardino, created: ! '2016-05-13
+      15:01:53.190240', name: San Bernardino, tax: '8.00', updated: ! '2016-05-13
+      15:14:35.437630'}
+  model: catax.catax
+  pk: 58500
+- fields: {cities: 'Montclair, Norton A.F.B., San Bernardino', count: 3, county: San
+      Bernardino, created: ! '2016-05-13 15:01:53.211819', name: 'San Bernardino (Montclair,
+      Norton A.F.B., San Bernardino)', tax: '8.30', updated: ! '2016-05-13 15:14:35.451531'}
+  model: catax.catax
+  pk: 58501
+- fields: {cities: 'East Nicolaus, Live Oak, Meridian, Nicolaus, Pleasant Grove, Rio
+      Oso, Robbins, Sutter, Trowbridge, Yuba City', count: 10, county: Sutter, created: ! '2016-05-13
+      15:01:53.221338', name: Sutter, tax: '7.50', updated: ! '2016-05-13 15:14:35.462597'}
+  model: catax.catax
+  pk: 58502
+- fields: {cities: 'Aromas, Big Sur, Bradley, Camp Roberts, Carmel Rancho, Carmel
+      Valley, Castroville, Chualar, Fort Ord, Jolon, Lockwood, Lucia, Moss Landing,
+      Pajaro, Parkfield, Pebble Beach, Priest Valley, Prunedale, Royal Oaks, San Ardo,
+      San Lucas, Spreckels', count: 22, county: Monterey, created: ! '2016-05-13 15:01:53.229902',
+    name: Monterey, tax: '7.60', updated: ! '2016-05-13 15:14:35.470926'}
+  model: catax.catax
+  pk: 58503
+- fields: {cities: 'Del Rey Oaks, Salinas', count: 2, county: Monterey, created: ! '2016-05-13
+      15:07:41.882885', name: 'Monterey (Del Rey Oaks, Salinas)', tax: '9.10', updated: ! '2016-05-13
+      15:14:35.503716'}
+  model: catax.catax
+  pk: 58508
+- fields: {cities: 'Gonzales, King City', count: 2, county: Monterey, created: ! '2016-05-13
+      15:07:41.903332', name: 'Monterey (Gonzales, King City)', tax: '8.10', updated: ! '2016-05-13
+      15:14:35.520831'}
+  model: catax.catax
+  pk: 58509
+- fields: {cities: 'Agua Caliente, Annapolis, Asti, Bodega, Bodega Bay, Boyes Hot
+      Springs, Camp Meeker, Cazadero, Cloverdale, Duncans Mills, El Verano, Eldridge,
+      Forestville, Freestone, Fulton, Geyserville, Glen Ellen, Graton, Guerneville,
+      Jenner, Kenwood, Korbel, Larkfield, Monte Rio, Occidental, Penngrove, Petaluma,
+      Rio Nido, Roseland, Sea Ranch, Stewarts Point, Two Rock Coast Guard Station,
+      Valley Ford, Villa Grande, Vineburg, Windsor', count: 36, county: Sonoma, created: ! '2016-05-13
+      15:07:41.919838', name: Sonoma, tax: '8.30', updated: ! '2016-05-13 15:14:35.529380'}
+  model: catax.catax
+  pk: 58510
+- fields: {cities: 'Healdsburg, Rohnert Park, Santa Rosa, Sonoma', count: 4, county: Sonoma,
+    created: ! '2016-05-13 15:07:41.936449', name: 'Sonoma (Healdsburg, Rohnert Park,
+      Santa Rosa, Sonoma)', tax: '8.80', updated: ! '2016-05-13 15:14:35.540934'}
+  model: catax.catax
+  pk: 58511
+- fields: {cities: Cotati, count: 1, county: Sonoma, created: ! '2016-05-13 15:07:41.953093',
+    name: Sonoma (Cotati), tax: '9.30', updated: ! '2016-05-13 15:14:35.554538'}
+  model: catax.catax
+  pk: 58512
+- fields: {cities: Sebastopol, count: 1, county: Sonoma, created: ! '2016-05-13 15:07:41.961506',
+    name: Sonoma (Sebastopol), tax: '9.00', updated: ! '2016-05-13 15:14:35.562697'}
+  model: catax.catax
+  pk: 58513
+- fields: {cities: 'Acampo, Banta, Clements, Escalon, Farmington, French Camp, Holt,
+      Lincoln Village, Linden, Lockeford, Lodi, Ripon, Sharpe Army Depot, Thornton,
+      Vernalis, Victor, Woodbridge', count: 17, county: San Joaquin, created: ! '2016-05-13
+      15:07:41.970082', name: San Joaquin, tax: '8.00', updated: ! '2016-05-13 15:14:35.593646'}
+  model: catax.catax
+  pk: 58514
+- fields: {cities: 'Manteca, Tracy', count: 2, county: San Joaquin, created: ! '2016-05-13
+      15:07:41.978155', name: 'San Joaquin (Manteca, Tracy)', tax: '8.50', updated: ! '2016-05-13
+      15:14:35.618724'}
+  model: catax.catax
+  pk: 58515
+- fields: {cities: 'Lathrop, Stockton', count: 2, county: San Joaquin, created: ! '2016-05-13
+      15:07:41.986577', name: 'San Joaquin (Lathrop, Stockton)', tax: '9.00', updated: ! '2016-05-13
+      15:14:35.643544'}
+  model: catax.catax
+  pk: 58516
+- fields: {cities: 'Alderpoint, Alton, Bayside, Blocksburg, Blue Lake, Briceland,
+      Bridgeville, Carlotta, Crannell, Cutten, Ettersburg, Fernbridge, Ferndale, Fields
+      Landing, Fort Seward, Fortuna, Freshwater, Garberville, Harris, Holmes, Honeydew,
+      Hoopa, Hydesville, Kneeland, Korbel, Loleta, McKinleyville, Miranda, Myers Flat,
+      Orick, Orleans, Pepperwood, Petrolia, Phillipsville, Redcrest, Redway, Richardson
+      Grove, Rohnerville, Ruby Valley, Samoa, Scotia, Shively, South Fork, Weott,
+      Westhaven, Whitethorn, Whitlow, Willow Creek', count: 48, county: Humboldt,
+    created: ! '2016-05-13 15:07:41.995049', name: Humboldt, tax: '8.00', updated: ! '2016-05-13
+      15:14:35.661131'}
+  model: catax.catax
+  pk: 58517
+- fields: {cities: 'Arcata, Eureka, Trinidad', count: 3, county: Humboldt, created: ! '2016-05-13
+      15:07:42.003353', name: 'Humboldt (Arcata, Eureka, Trinidad)', tax: '8.80',
+    updated: ! '2016-05-13 15:14:35.686724'}
+  model: catax.catax
+  pk: 58518
+- fields: {cities: Rio Dell, count: 1, county: Humboldt, created: ! '2016-05-13 15:07:42.011535',
+    name: Humboldt (Rio Dell), tax: '9.00', updated: ! '2016-05-13 15:14:35.723521'}
+  model: catax.catax
+  pk: 58519
+- fields: {cities: 'Artois, Butte City, Elk Creek, Glenn, Hamilton City, Ordbend,
+      Orland, Willows', count: 8, county: Glenn, created: ! '2016-05-13 15:07:42.019781',
+    name: Glenn, tax: '7.50', updated: ! '2016-05-13 15:14:35.888799'}
+  model: catax.catax
+  pk: 58520
+- fields: {cities: 'Ballico, Castle A.F.B., Cressey, Delhi, Dos Palos, El Nido, Hilmar,
+      Le Grand, Livingston, Planada, Santa Nella, Santa Rita Park, Snelling, South
+      Dos Palos, Stevinson, Volta, Winton', count: 17, county: Merced, created: ! '2016-05-13
+      15:07:42.028222', name: Merced, tax: '7.50', updated: ! '2016-05-13 15:14:35.916389'}
+  model: catax.catax
+  pk: 58521
+- fields: {cities: 'Atwater, Gustine, Los Banos, Merced', count: 4, county: Merced,
+    created: ! '2016-05-13 15:07:42.036458', name: 'Merced (Atwater, Gustine, Los
+      Banos, Merced)', tax: '8.00', updated: ! '2016-05-13 15:14:35.937736'}
+  model: catax.catax
+  pk: 58522
+- fields: {cities: 'Auberry, Barton, Big Creek, Biola, Burrel, Calwa, Cantua Creek,
+      Cardwell, Caruthers, Cedar Crest, Clinter, Clovis, Coalinga, Del Rey, Dinkey
+      Creek, Dunlap, Easton, Fancher, Fig Garden Village, Firebaugh, Five Points,
+      Fowler, Fresno, Friant, Helm, Herndon, Highway City, Hume, Huntington Lake,
+      Kerman, Kingsburg, Lakeshore, Laton, Malaga, Mendota, Miramonte, Mono Hot Springs,
+      Orange Cove, Parlier, Piedra, Pinedale, Prather, Raisin City, Riverdale, San
+      Joaquin, Shaver Lake, Squaw Valley, Tollhouse, Tranquillity', count: 49, county: Fresno,
+    created: ! '2016-05-13 15:07:42.044849', name: Fresno, tax: '8.20', updated: ! '2016-05-13
+      15:14:35.953767'}
+  model: catax.catax
+  pk: 58523
+- fields: {cities: 'Reedley, Selma', count: 2, county: Fresno, created: ! '2016-05-13
+      15:07:42.053109', name: 'Fresno (Reedley, Selma)', tax: '8.70', updated: ! '2016-05-13
+      15:14:35.979442'}
+  model: catax.catax
+  pk: 58524
+- fields: {cities: Huron, count: 1, county: Fresno, created: ! '2016-05-13 15:07:42.061404',
+    name: Fresno (Huron), tax: '9.20', updated: ! '2016-05-13 15:14:35.987600'}
+  model: catax.catax
+  pk: 58525
+- fields: {cities: Sanger, count: 1, county: Fresno, created: ! '2016-05-13 15:07:42.069614',
+    name: Fresno (Sanger), tax: '9.00', updated: ! '2016-05-13 15:14:36.004676'}
+  model: catax.catax
+  pk: 58526
+- fields: {cities: 'Beale A.F.B., Browns Valley, Brownsville, Camp Beale, Camptonville,
+      Challenge, Dobbins, Linda, Loma Rica, Marysville, Olivehurst, Oregon House,
+      Rackerby, Smartsville, Strawberry Valley, Woodleaf', count: 16, county: Yuba,
+    created: ! '2016-05-13 15:07:42.077999', name: Yuba, tax: '7.50', updated: ! '2016-05-13
+      15:14:36.021305'}
+  model: catax.catax
+  pk: 58527
+- fields: {cities: Wheatland, count: 1, county: Yuba, created: ! '2016-05-13 15:07:42.086313',
+    name: Yuba (Wheatland), tax: '8.00', updated: ! '2016-05-13 15:14:36.051697'}
+  model: catax.catax
+  pk: 58528
+- fields: {cities: 'Al Tahoe, Bijou, Cameron Park, Camino, Coloma, Cool, Diamond Springs,
+      Echo Lake, El Dorado, El Dorado Hills, Fallen Leaf, Garden Valley, Georgetown,
+      Greenwood, Grizzly Flats, Kelsey, Kyburz, Little Norway, Lotus, Meeks Bay, Meyers,
+      Mt. Aukum, Nashville, Omo Ranch, Pacific House, Pilot Hill, Pollock Pines, Rescue,
+      Shingle Springs, Smithflat, Somerset, Tahoe Paradise, Tahoe Valley, Twin Bridges',
+    count: 34, county: El Dorado, created: ! '2016-05-13 15:07:42.094741', name: El
+      Dorado, tax: '7.50', updated: ! '2016-05-13 15:14:36.084874'}
+  model: catax.catax
+  pk: 58529
+- fields: {cities: 'Placerville, South Lake Tahoe', count: 2, county: El Dorado, created: ! '2016-05-13
+      15:07:42.103002', name: 'El Dorado (Placerville, South Lake Tahoe)', tax: '8.00',
+    updated: ! '2016-05-13 15:14:36.118344'}
+  model: catax.catax
+  pk: 58530
+- fields: {cities: 'Adelaida, Avila Beach, Baywood Park, California Valley, Cambria,
+      Cayucos, Cholame, Creston, Halcyon, Harmony, Los Osos, Los Padres, Morro Plaza,
+      Nipomo, Oceano, San Miguel, San Simeon, Santa Margarita, Shandon, Templeton',
+    count: 20, county: San Luis Obispo, created: ! '2016-05-13 15:07:42.111687', name: San
+      Luis Obispo, tax: '7.50', updated: ! '2016-05-13 15:14:36.129142'}
+  model: catax.catax
+  pk: 58531
+- fields: {cities: 'Arroyo Grande, Atascadero, Del Mar Heights, Grover Beach, Morro
+      Bay, Paso Robles, Pismo Beach, San Luis Obispo, Shell Beach', count: 9, county: San
+      Luis Obispo, created: ! '2016-05-13 15:07:42.119822', name: 'San Luis Obispo
+      (Arroyo Grande, Atascadero, Del Mar Heights, Grover Beach, Morro Bay, Paso Robles,
+      Pismo Beach, San Luis Obispo, Shell Beach)', tax: '8.00', updated: ! '2016-05-13
+      15:14:36.137420'}
+  model: catax.catax
+  pk: 58532
+- fields: {cities: 'Idria, New Idria, Paicines, San Benito, Tres Pinos', count: 5,
+    county: San Benito, created: ! '2016-05-13 15:07:42.128147', name: San Benito,
+    tax: '7.50', updated: ! '2016-05-13 15:14:36.145719'}
+  model: catax.catax
+  pk: 58533
+- fields: {cities: Hollister, count: 1, county: San Benito, created: ! '2016-05-13
+      15:07:42.136463', name: San Benito (Hollister), tax: '8.50', updated: ! '2016-05-13
+      15:14:36.154102'}
+  model: catax.catax
+  pk: 58534
+- fields: {cities: San Juan Bautista, count: 1, county: San Benito, created: ! '2016-05-13
+      15:07:42.144794', name: San Benito (San Juan Bautista), tax: '8.30', updated: ! '2016-05-13
+      15:14:36.162359'}
+  model: catax.catax
+  pk: 58535
+- fields: {cities: 'Corning, Flournoy, Gerber, Los Molinos, Manton, Mill Creek, Mineral,
+      Paskenta, Paynes Creek, Proberta, Richfield, Tehama, Vina', count: 13, county: Tehama,
+    created: ! '2016-05-13 15:07:42.153101', name: Tehama, tax: '7.50', updated: ! '2016-05-13
+      15:14:36.173644'}
+  model: catax.catax
+  pk: 58536
+- fields: {cities: Red Bluff, count: 1, county: Tehama, created: ! '2016-05-13 15:07:42.161325',
+    name: Tehama (Red Bluff), tax: '7.80', updated: ! '2016-05-13 15:14:36.189130'}
+  model: catax.catax
+  pk: 58537
+- fields: {cities: 'Altaville, Angels Camp, Arnold, Avery, Burson, Camp Connell, Campo
+      Seco, Copperopolis, Douglas Flat, Glencoe, Hathaway Pines, Mokelumne Hill, Mountain
+      Ranch, Murphys, Rail Road Flat, San Andreas, Sheepranch, Vallecito, Valley Springs,
+      Wallace, West Point, White Pines, Wilseyville', count: 23, county: Calaveras,
+    created: ! '2016-05-13 15:07:42.211528', name: Calaveras, tax: '7.50', updated: ! '2016-05-13
+      15:14:36.212693'}
+  model: catax.catax
+  pk: 58538
+- fields: {cities: 'Bear Valley, Hope Valley, Kirkwood, Lake Alpine, Markleeville,
+      Woodfords', count: 6, county: Alpine, created: ! '2016-05-13 15:07:42.219790',
+    name: Alpine, tax: '7.50', updated: ! '2016-05-21 13:05:56.276023'}
+  model: catax.catax
+  pk: 58539
+- fields: {cities: 'Ballard, Betteravia, Buellton, Carpinteria, Casmalia, Cuyama,
+      Garey, Gaviota, Goleta, Isla Vista, Lompoc, Los Alamos, Los Olivos, Montecito,
+      New Cuyama, Orcutt, Refugio Beach, Santa Barbara, Santa Ynez, Sisquoc, Solvang,
+      Summerland, University, Vandenberg A.F.B, Ventucopa', count: 25, county: Santa
+      Barbara, created: ! '2016-05-13 15:07:42.228196', name: Santa Barbara, tax: '8.00',
+    updated: ! '2016-05-13 15:14:36.287535'}
+  model: catax.catax
+  pk: 58540
+- fields: {cities: 'Guadalupe, Santa Maria', count: 2, county: Santa Barbara, created: ! '2016-05-13
+      15:07:42.236489', name: 'Santa Barbara (Guadalupe, Santa Maria)', tax: '8.30',
+    updated: ! '2016-05-13 15:14:36.326661'}
+  model: catax.catax
+  pk: 58541
+- fields: {cities: 'Crows Landing, Denair, El Viejo, Empire, Hickman, Hughson, Keyes,
+      Knights Ferry, La Grange, Modesto, Newman, Patterson, Riverbank, Salida, Turlock,
+      Valley Home, Waterford, Westley, Westside', count: 19, county: Stanislaus, created: ! '2016-05-13
+      15:07:42.244888', name: Stanislaus, tax: '7.60', updated: ! '2016-05-13 15:14:36.360075'}
+  model: catax.catax
+  pk: 58542
+- fields: {cities: 'Ceres, Oakdale', count: 2, county: Stanislaus, created: ! '2016-05-13
+      15:07:42.253152', name: 'Stanislaus (Ceres, Oakdale)', tax: '8.10', updated: ! '2016-05-13
+      15:14:36.374089'}
+  model: catax.catax
+  pk: 58543
+- fields: {cities: 'Carmel, Del Monte Grove, Fort Ord, Fort Ord, Greenfield, Marina,
+      Monterey, Pacific Grove, Presidio of Monterey, Sand City, Seaside, Soledad,
+      U.S. Naval Postgrad School', count: 13, county: Monterey, created: ! '2016-05-13
+      15:14:35.480400', name: 'Monterey (Carmel, Del Monte Grove, Fort Ord, Fort Ord,
+      Greenfield, Marina, Monterey, Pacific Grove, Presidio of Monterey, Sand City,
+      Seaside, Soledad, U.S. Naval Postgrad School)', tax: '8.60', updated: ! '2016-05-13
+      15:14:35.480417'}
+  model: catax.catax
+  pk: 58544

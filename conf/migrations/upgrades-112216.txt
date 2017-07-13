@@ -1,0 +1,14 @@
+11/22/16 JJW
+
+Prod upgrade steps performed today:
+
+- used git log to determine recent changes to requirements.txt
+
+- update django-grappelli manually to new version sepcified in requirements.txt
+
+- double check django-userena to version specied in git - 
+    turns out they are both 2.01, we may now be able to go back to standard pip install in requirements
+
+- used apt to install (in the OS) dependencies for pip install geoip to complete OK (Missing geoip.h)
+    then pip-install geoip went ok
+

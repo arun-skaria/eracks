@@ -1,0 +1,191 @@
+- fields: {created: ! '2015-10-10 18:43:38.338324', modified: ! '2015-10-10 20:30:39.665739',
+    name: Strip tags from Category description, notes: '', source: "import re\r\nfrom
+      tidylib import tidy_fragment\r\nfrom pprint import pprint\r\nfrom products.models
+      import Categories, Product, Option, Choice, ChoiceCategory, Prodoptchoice, Prodopt\r\nfrom
+      django.utils.html import strip_entities, strip_tags, remove_tags\r\n\r\nhtmlcomments
+      = re.compile('\\<![ \\r\\n\\t]*(--([^\\-]|[\\r\\n]|-[^\\-])*--[ \\r\\n\\t]*)\\>')\r\n
+      \           \r\nfor c in Categories.objects.filter(id=2):\r\n  s = c.description\r\n
+      \   \r\n  print 'BEFORE:', s\r\n  s = remove_tags (s, 'table thead tfoot tbody
+      td tr th font TABLE THEAD TFOOT TBODY TD TR TH FONT p br div P BR DIV') \r\n
+      \ s = htmlcomments.sub ('', s)\r\n  s = s.strip('\\r\\n\\t')\r\n  s = s.replace
+      ('&nbsp;','')\r\n  s, errs = tidy_fragment (s, options = { 'indent':1, })\r\n
+      \   \r\n  #if errs:\r\n  #  print errs\r\n\r\n  print 'AFTER:'\r\n  print s\r\n"}
+  model: webshell.script
+- fields: {created: ! '2015-10-12 21:20:13.420309', modified: ! '2015-10-13 16:53:52.281461',
+    name: Test ways to determine new/old product desc, notes: '', source: "import
+      re, pyquery\r\nfrom pprint import pprint\r\nfrom products.models import Categories,
+      Product, Option, Choice, ChoiceCategory, Prodoptchoice, Prodopt\r\n\r\n\r\nfor
+      p in Product.objects.published():  # .filter(sku='OPT4200'):\r\n    d = p.description\r\n
+      \   #print p.sku, d.find ('<h5>eRacks')>-1 or d.find ('<h4>eRacks')>-1, re.search
+      (d, '(?i)<h[123456]>eRacks')\r\n    try:\r\n        print p.sku,\r\n        d
+      = pyquery.PyQuery(d)\r\n        #t = d('h4').text()\r\n        #print t.startswith
+      ('eRacks/'), t,\r\n        #t = d('h5:contains(\"eRacks/\")').text()\r\n        #print
+      t.startswith ('eRacks/'), t\r\n        if d('h4:contains(\"eRacks/\")').text().startswith
+      ('eRacks/') or \\\r\n           d('h5:contains(\"eRacks/\")').text().startswith
+      ('eRacks/') or \\\r\n           'eRacks/QUIET' in d('h5:contains(\"eRacks/\")').text()
+      or \\\r\n           d('h5>strong:contains(\"eRacks/\")').text().startswith ('eRacks/')
+      or\\\r\n           d('h5>span:contains(\"eRacks/\")').text().startswith ('eRacks/')
+      or\\\r\n           d('h5>i:contains(\"eRacks/\")').text().startswith ('eRacks/')
+      or\\\r\n           d('h5>b:contains(\"eRacks/\")').text().startswith ('eRacks/'):\r\n
+      \           print 'YES'\r\n        else:\r\n            print d('h4:contains(\"eRacks/\")').text()\r\n
+      \           print d('h5:contains(\"eRacks/\")').text()\r\n            print
+      d('h5>strong:contains(\"eRacks/\")').text()\r\n            print d('h5:contains(\"eRacks/\")').text()\r\n
+      \           print 'h5', d('h5')\r\n    except Exception, e:\r\n        print
+      'exception:', e, '\"%s\", \"%s\"' % (d, p.description)\r\n\r\n"}
+  model: webshell.script
+- fields: {created: ! '2015-10-13 14:12:13.364405', modified: ! '2015-10-13 19:22:30.798809',
+    name: Strip tags from Product description, notes: '', source: "import re\r\nfrom
+      tidylib import tidy_fragment\r\nfrom pprint import pprint\r\nfrom products.models
+      import Categories, Product, Option, Choice, ChoiceCategory, Prodoptchoice, Prodopt\r\nfrom
+      django.utils.html import strip_entities, strip_tags, remove_tags\r\n\r\nhtmlcomments
+      = re.compile('\\<![ \\r\\n\\t]*(--([^\\-]|[\\r\\n]|-[^\\-])*--[ \\r\\n\\t]*)\\>')\r\n\r\n#for
+      c in Categories.objects.filter(id=2):\r\nfor c in Product.objects.filter (sku='MS2UT'):\r\n
+      \ s = c.description\r\n\r\n  #print 'BEFORE:', s\r\n  s = remove_tags (s, 'table
+      thead tfoot tbody td tr th font TABLE THEAD TFOOT TBODY TD TR TH FONT center
+      CENTER')  # p br div P BR DIV\r\n  s = htmlcomments.sub ('', s)\r\n  s = s.strip('\\r\\n\\t')\r\n
+      \ s = s.replace ('&nbsp;','')\r\n  s, errs = tidy_fragment (s, options=dict
+      (indent=1, wrap=120))\r\n    \r\n  #if errs:\r\n  #  print errs\r\n\r\n  print
+      'AFTER:'\r\n  print s\r\n"}
+  model: webshell.script
+- fields: {created: ! '2015-10-13 16:53:55.173948', modified: ! '2015-10-13 16:54:27.293648',
+    name: 'Restate product description, strip tags intelligently', notes: '', source: "import
+      re, pyquery\r\nfrom pprint import pprint\r\nfrom products.models import Categories,
+      Product, Option, Choice, ChoiceCategory, Prodoptchoice, Prodopt\r\n\r\n\r\nfor
+      p in Product.objects.published():  # .filter(sku='OPT4200'):\r\n    d = p.description\r\n
+      \   #print p.sku, d.find ('<h5>eRacks')>-1 or d.find ('<h4>eRacks')>-1, re.search
+      (d, '(?i)<h[123456]>eRacks')\r\n    try:\r\n        print p.sku,\r\n        d
+      = pyquery.PyQuery(d)\r\n        #t = d('h4').text()\r\n        #print t.startswith
+      ('eRacks/'), t,\r\n        #t = d('h5:contains(\"eRacks/\")').text()\r\n        #print
+      t.startswith ('eRacks/'), t\r\n        if d('h4:contains(\"eRacks/\")').text().startswith
+      ('eRacks/') or \\\r\n           d('h5:contains(\"eRacks/\")').text().startswith
+      ('eRacks/') or \\\r\n           'eRacks/QUIET' in d('h5:contains(\"eRacks/\")').text()
+      or \\\r\n           d('h5>strong:contains(\"eRacks/\")').text().startswith ('eRacks/')
+      or\\\r\n           d('h5>span:contains(\"eRacks/\")').text().startswith ('eRacks/')
+      or\\\r\n           d('h5>i:contains(\"eRacks/\")').text().startswith ('eRacks/')
+      or\\\r\n           d('h5>b:contains(\"eRacks/\")').text().startswith ('eRacks/'):\r\n
+      \           print 'YES'\r\n        else:\r\n            print d('h4:contains(\"eRacks/\")').text()\r\n
+      \           print d('h5:contains(\"eRacks/\")').text()\r\n            print
+      d('h5>strong:contains(\"eRacks/\")').text()\r\n            print d('h5:contains(\"eRacks/\")').text()\r\n
+      \           print 'h5', d('h5')\r\n    except Exception, e:\r\n        print
+      'exception:', e, '\"%s\", \"%s\"' % (d, p.description)\r\n\r\n"}
+  model: webshell.script
+- fields: {created: ! '2015-10-13 19:22:54.795602', modified: ! '2015-10-14 12:16:07.835585',
+    name: 'Test ways to recognize img tag, remove div classes  fm product desc', notes: '',
+    source: "import re, pyquery\r\nfrom pprint import pprint\r\nfrom products.models
+      import Categories, Product, Option, Choice, ChoiceCategory, Prodoptchoice, Prodopt\r\n\r\n#
+      TODO:\r\n# n Remove empty p & div tags\r\n# remove table & font tags\r\n# p
+      Remove div classes\r\n# h4, h5 containing eRacks/\r\n# img w/link pointing to
+      '#photos'\r\n# txt link(s) to 'more photos' \r\n\r\n\r\nfor p in Product.objects.published().filter(sku='OPT4200'):\r\n
+      \   d = p.description\r\n    #print p.sku, d.find ('<h5>eRacks')>-1 or d.find
+      ('<h4>eRacks')>-1, re.search (d, '(?i)<h[123456]>eRacks')\r\n    try:\r\n        print
+      p.sku,\r\n        d = pyquery.PyQuery(d)\r\n\r\n        #for i in d('div'):
+      # .each (lambda e: str(e).strip() == ''):\r\n        #    print 'ITEM', bool
+      (i) # .text.strip() == '')\r\n        \r\n        d('div').remove_attr('style')\r\n
+      \       d('div').remove_attr('class')\r\n        \r\n        for i in d('div'):\r\n
+      \           print i.tag, i.attrib\r\n            #i.remove_attr('style')\r\n
+      \           #i.remove_attr('class')\r\n            #print i.attrib\r\n        \r\n
+      \       if d('p a[href=\"#photos\"] img[src^=\"/images/products/\"]') or \\\r\n
+      \          d('span a[href=\"#photos\"] img[src^=\"/images/products/\"]'): \r\n
+      \           print 'YES'\r\n        else:\r\n            print 'a href photos',
+      d('a[href=\"#photos\"]')\r\n            \r\n        if d('p a[href=\"#photos\"]
+      img[src^=\"/images/products/\"]') or \\\r\n           d('span a[href=\"#photos\"]
+      img[src^=\"/images/products/\"]'): \r\n            print 'YES'\r\n        else:\r\n
+      \           print 'a href photos', d('a[href=\"#photos\"]')\r\n    except Exception,
+      e:\r\n        print 'exception:', e, '\"%s\", \"%s\"' % (d, p.description)\r\n\r\n
+      \   print 'AFTER:', d"}
+  model: webshell.script
+- fields: {created: ! '2015-10-19 20:23:20.155516', modified: ! '2015-10-23 13:14:16.245523',
+    name: Import video cards from Passmark, notes: '', source: "from products.models
+      import Categories, Product, Option, Choice, ChoiceCategory, Prodoptchoice, Prodopt\r\n#from
+      utils import create_or_update\r\n               \r\nfrom products.imports.passmark.tablescrape_passmark
+      import scrape_table\r\nfrom products.imports.passmark.parse_passmark_video import
+      print_csv, format_and_list_choice_dicts\r\n\r\nurl = 'http://www.videocardbenchmark.net/high_end_gpus.html'\r\nchoicecat
+      = 'High-end GPUs'\r\nfname = 'high_end_gpus.bsv'  # bar-separated values :)\r\n\r\ncc,
+      created = ChoiceCategory.objects.get_or_create (name=choicecat)\r\n                                      \r\nscrape_table
+      (url, 3, fname)\r\n#print_csv (fname, choicecat, url)\r\n\r\nfor key, fields
+      in format_and_list_choice_dicts (fname, choicecat, url, 20):\r\n    fields ['choicecategory']
+      = cc\r\n    #print key, fields\r\n    print Choice.objects.update_or_create
+      (fields, name=key)\r\n    #print create_or_update (Choice, dict(name=key), fields)\r\n
+      \   \r\n\r\n"}
+  model: webshell.script
+- fields: {created: ! '2015-10-20 18:13:56.743164', modified: ! '2015-10-23 14:26:07.610884',
+    name: Restate Org Contributions, notes: '', source: "from products.models import
+      Categories, Product, Option, Choice, ChoiceCategory, Prodoptchoice, Prodopt\r\n\r\ndf
+      = Choice.objects.filter (name__icontains='$5 to the Ubuntu Studio project')[0]\r\norg
+      = Option.objects.filter (name__icontains='Org')[0]\r\ncount = 0\r\n\r\nfor p
+      in Product.objects.filter (options__name__icontains='Donation Target'):\r\n
+      \   print p.prodopt_set.filter (option__name__icontains='Donation').delete()\r\n
+      \   print Prodopt.objects.create (product=p, option=org, allowed_quantities='1,2,5,10,20',
+      defaultchoice=df)\r\n    count += 1\r\n\r\nprint count\r\n    \r\n    \r\n    \r\nold='''\r\nprint
+      Option.objects.filter (name__icontains='Donation')\r\nprint Option.objects.filter
+      (name__icontains='Org')\r\n# 170 print Option.objects.all().count()  # all().values_list
+      ('name', flat=True)\r\n\r\n# all: 191 16 112\r\n# pub: 160 13 93\r\n\r\n#print
+      Product.objects.published().filter (options__name__istartswith='Donation').count()\r\n#print
+      Product.objects.published().exclude (options__name__istartswith='Donation').count()\r\n#print
+      Product.objects.published().count()\r\n\r\n# 0 print Product.objects.filter
+      (options__name__iexact='Donation Target').exclude (options__name__iexact='Donation
+      Amount').count()\r\n# 1! print Product.objects.filter (options__name__iexact='Donation
+      Target').exclude (options__name__iexact='Donation Amount').count()\r\n\r\nprint
+      Product.objects.filter (options__name__iexact='Donation Target').exclude (options__name__iexact='Donation
+      Amount')\r\nprint Product.objects.filter (options__name__iexact='Donation Amount').exclude
+      (options__name__iexact='Donation Target')\r\n\r\nprint Product.objects.published().filter
+      (options__name__istartswith='Org') # .count()\r\n\r\norg = Option.objects.filter
+      (name__icontains='Org')[0]\r\n#cum = Product.objects.filter (options__name__iexact='Donation
+      Target').exclude (options__name__iexact='Donation Amount')[0]\r\ncum = Product.objects.filter
+      (sku='CUMULUS')[0]\r\nprint org, cum\r\n\r\nprint cum.prodopt_set.filter(option__name__icontains='Org').delete()\r\n\r\n#
+      nope, it's a through model: cum.options.add (org)\r\ndf = Choice.objects.filter
+      (name__icontains='$5 to the Ubuntu Studio project')[0]\r\npo = Prodopt.objects.create
+      (product=cum, option=org, allowed_quantities='1,2,5,10,20', defaultchoice=df)\r\n\r\ncum.prodopt_set.get(option__name__icontains='Donation').delete()\r\n\r\n'''"}
+  model: webshell.script
+- fields: {created: ! '2015-10-23 14:16:13.875819', modified: ! '2015-10-23 14:16:13.875858',
+    name: Restate Org Contributions - test, notes: '', source: "from products.models
+      import Categories, Product, Option, Choice, ChoiceCategory, Prodoptchoice, Prodopt\r\n#from
+      utils import create_or_update\r\n               \r\n#print Product.objects.filter
+      (baseprice__gt=2000).count()\r\n#print Product.objects.filter (baseprice__gt=3000).count()\r\n#print
+      Product.objects.filter (baseprice__gt=4000).count()\r\n#print Product.objects.filter
+      (baseprice__gt=5000).count()\r\n\r\nprint Option.objects.filter (name__icontains='Donation')\r\nprint
+      Option.objects.filter (name__icontains='Org')\r\n# 170 print Option.objects.all().count()
+      \ # all().values_list ('name', flat=True)\r\n\r\n# all: 191 16 112\r\n# pub:
+      160 13 93\r\n\r\n#print Product.objects.published().filter (options__name__istartswith='Donation').count()\r\n#print
+      Product.objects.published().exclude (options__name__istartswith='Donation').count()\r\n#print
+      Product.objects.published().count()\r\n\r\n# 0 print Product.objects.filter
+      (options__name__iexact='Donation Target').exclude (options__name__iexact='Donation
+      Amount').count()\r\n# 1! print Product.objects.filter (options__name__iexact='Donation
+      Target').exclude (options__name__iexact='Donation Amount').count()\r\n\r\nprint
+      Product.objects.filter (options__name__iexact='Donation Target').exclude (options__name__iexact='Donation
+      Amount')\r\nprint Product.objects.filter (options__name__iexact='Donation Amount').exclude
+      (options__name__iexact='Donation Target')\r\n\r\nprint Product.objects.published().filter
+      (options__name__istartswith='Org') # .count()\r\n\r\norg = Option.objects.filter
+      (name__icontains='Org')[0]\r\n#cum = Product.objects.filter (options__name__iexact='Donation
+      Target').exclude (options__name__iexact='Donation Amount')[0]\r\ncum = Product.objects.filter
+      (sku='CUMULUS')[0]\r\nprint org, cum\r\n\r\nprint cum.prodopt_set.filter(option__name__icontains='Org').delete()\r\n\r\n#
+      nope, it's a through model: cum.options.add (org)\r\ndf = Choice.objects.filter
+      (name__icontains='$5 to the Ubuntu Studio project')[0]\r\npo = Prodopt.objects.create
+      (product=cum, option=org, allowed_quantities='1,2,5,10,20', defaultchoice=df)\r\n\r\ncum.prodopt_set.get(option__name__icontains='Donation').delete()\r\n\r\n"}
+  model: webshell.script
+- fields: {created: ! '2015-10-23 14:40:44.046351', modified: ! '2015-10-23 18:15:06.978316',
+    name: Import CPUs from Passmark, notes: '', source: "from products.models import
+      Categories, Product, Option, Choice, ChoiceCategory, Prodoptchoice, Prodopt\r\n
+      \              \r\nfrom products.imports.passmark.tablescrape_passmark import
+      scrape_table\r\nfrom products.imports.passmark.parse_passmark_cpu import print_csv,
+      format_and_list_choice_dicts\r\n\r\nteeth=1\r\ntrace=0\r\n\r\ndef scrape_cpus
+      (url, cc, fname):\r\n  global scrape_table, print_csv, format_and_list_choice_dicts,
+      trace, teeth, Choice\r\n  scrape_table (url, 3, fname)\r\n\r\n  for key, fields
+      in format_and_list_choice_dicts (fname, cc.name, url, 20):  # remove the 20
+      after testing\r\n    fields ['choicecategory'] = cc\r\n    if trace: print key,
+      fields\r\n    if teeth:\r\n        print Choice.objects.update_or_create (fields,
+      name=key)\r\n    else:\r\n        print_csv (fname, cc.name, url)\r\n\r\nle,
+      created = ChoiceCategory.objects.get_or_create (name='Low-end CPUs', abbrev='LE')\r\nlm,
+      created = ChoiceCategory.objects.get_or_create (name='Low-Mid Range CPUs', abbrev='LM')\r\nhm,
+      created = ChoiceCategory.objects.get_or_create (name='High-Mid Range CPUs',
+      abbrev='HM')\r\nhe, created = ChoiceCategory.objects.get_or_create (name='High-end
+      CPUs', abbrev='HE')\r\n\r\nscrape_cpus ('http://www.cpubenchmark.net/low_end_cpus.html',
+      \     le, 'low_end_cpus.bsv')\r\nscrape_cpus ('http://www.cpubenchmark.net/midlow_range_cpus.html',
+      lm, 'midlow_range_cpus.bsv')\r\nscrape_cpus ('http://www.cpubenchmark.net/mid_range_cpus.html',
+      \   hm, 'mid_range_cpus.bsv')\r\nscrape_cpus ('http://www.cpubenchmark.net/high_end_cpus.html',
+      \    he, 'high_end_cpus.bsv')\r\n\r\n\r\n\r\n\r\n'''Old\r\n\r\nurl = 'http://www.cpubenchmark.net/low_end_cpus.html'\r\nfname
+      = 'low_end_cpus.bsv'  # bar-separated values :)\r\n#fname = 'high_end_cpus.bsv'
+      \ # bar-separated values :)\r\n\r\nHigh End CPUs, HE - not necessary: HEI, HEA,
+      HEI7, HEI5, HEIX, etc \r\n'High Mid Range CPUs', 'HMI', 'HMA'\r\n'Low Mid Range
+      CPUs', 'LMI', 'LMA'\r\n\r\n'''"}
+  model: webshell.script

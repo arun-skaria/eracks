@@ -1,0 +1,53 @@
+-   fields: {activation_key: 7f97e145f104fa399d28d991599b95615d040d6a, activation_notification_send: false,
+        email_confirmation_key: '', email_confirmation_key_created: null, email_unconfirmed: '',
+        last_active: null, user: 209}
+    model: userena.userenasignup
+    pk: 122
+-   fields: {address1: 720 Timpanogos PKWY, address2: '', city: Orem, country: US,
+        created: ! '2014-08-19 08:38:18.501959', customer: 56122, email: '', name: Logan
+            Harris, nickname: '', phone: '', published: true, state: UT, type: billing,
+        updated: ! '2015-10-20 11:27:20.423851', zip: '84097'}
+    model: customers.address
+    pk: 56124
+-   fields: {address1: 720 Timpanogos Parkway, address2: '', city: Orem, country: US,
+        created: ! '2014-08-19 08:38:18.416469', customer: 56122, email: '', name: Calvin
+            Cook, nickname: '', phone: '', published: true, state: UT, type: shipping,
+        updated: ! '2015-10-20 11:27:20.410699', zip: '84097'}
+    model: customers.address
+    pk: 56123
+-   fields: {comments: '', created: ! '2014-08-19 08:17:41.178030', department: MFG/Purchasing,
+        email: calvinc@spotterrf.com, email2: '', mugshot: '', organization: SpotterRF,
+        phone: 385-208-8659, phone2: '', privacy: closed, published: true, title: Manufacturing/Purchasing,
+        updated: ! '2015-10-20 11:27:20.390254', user: 209}
+    model: customers.customer
+    pk: 56122
+-   fields: {agree_to_terms: true, bill_to_address: 56124, california_tax: null, cart: '[{''sku'':
+            u''Quote/060815-LH'', ''weight'': 39.0, ''notes'': u''Quote for SpotterRF
+            LLC<br>Valid for 180 days<br>Customer Reference # Quiet 2U with 2x RHD<br>Approved
+            by: joe<br>Terms: ccard'', ''qty'': 1, ''baseprice'': 1550.0, ''totprice'':
+            1550.0, ''summary'': u''Line: 1 Qty: 1 Model: QUIET2<br>eRacks/QUIET2\r<br>2U-2RHD
+            chassis\r<br>2x 3.5" 500GB Seagate removable drives\r<br>Quietized\r<br>Debian
+            7.8 Stable Installed\r<br>RAID & Partitioning:\r<br>- Mirrored / partition\r<br>-
+            4.5GB swap partition(s)\r<br>Options/packages installed: \r<br> - SSH\r<br>'',
+            ''opts'': {}}]', comment: '', created: ! '2015-10-20 11:27:20.727801',
+        customer: 56122, preferred_shipper: Any, processed: null, reference_number: '',
+        referral_source: '', referral_type: google, ship_to_address: 56123, shipping: '39.00',
+        shipping_method: ground, shipping_payment: included, source: website, special_instructions: '',
+        status: new, updated: ! '2015-10-20 11:27:20.727845'}
+    model: orders.order
+    pk: 57138
+-   fields:
+        date_joined: 2014-08-19 08:17:40.640248
+        email: calvinc@spotterrf.com
+        first_name: ''
+        groups: []
+        is_active: true
+        is_staff: false
+        is_superuser: false
+        last_login: 2015-10-20 11:26:35.651330
+        last_name: ''
+        password: pbkdf2_sha256$15000$J0Dlv8Miku6w$mdjvzFHqkE8UgVUVwpFm1wY27oUJUJe27YXvbN5XOHk=
+        user_permissions: []
+        username: ispotyou123
+    model: auth.user
+    pk: 209

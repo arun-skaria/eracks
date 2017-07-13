@@ -1,0 +1,1415 @@
+- fields:
+    codename: add_logentry
+    content_type: [admin, logentry]
+    name: Can add log entry
+  model: auth.permission
+- fields:
+    codename: change_logentry
+    content_type: [admin, logentry]
+    name: Can change log entry
+  model: auth.permission
+- fields:
+    codename: delete_logentry
+    content_type: [admin, logentry]
+    name: Can delete log entry
+  model: auth.permission
+- fields:
+    codename: add_permission
+    content_type: [auth, permission]
+    name: Can add permission
+  model: auth.permission
+- fields:
+    codename: change_permission
+    content_type: [auth, permission]
+    name: Can change permission
+  model: auth.permission
+- fields:
+    codename: delete_permission
+    content_type: [auth, permission]
+    name: Can delete permission
+  model: auth.permission
+- fields:
+    codename: add_group
+    content_type: [auth, group]
+    name: Can add group
+  model: auth.permission
+- fields:
+    codename: change_group
+    content_type: [auth, group]
+    name: Can change group
+  model: auth.permission
+- fields:
+    codename: delete_group
+    content_type: [auth, group]
+    name: Can delete group
+  model: auth.permission
+- fields:
+    codename: add_user
+    content_type: [auth, user]
+    name: Can add user
+  model: auth.permission
+- fields:
+    codename: change_user
+    content_type: [auth, user]
+    name: Can change user
+  model: auth.permission
+- fields:
+    codename: delete_user
+    content_type: [auth, user]
+    name: Can delete user
+  model: auth.permission
+- fields:
+    codename: add_contenttype
+    content_type: [contenttypes, contenttype]
+    name: Can add content type
+  model: auth.permission
+- fields:
+    codename: change_contenttype
+    content_type: [contenttypes, contenttype]
+    name: Can change content type
+  model: auth.permission
+- fields:
+    codename: delete_contenttype
+    content_type: [contenttypes, contenttype]
+    name: Can delete content type
+  model: auth.permission
+- fields:
+    codename: add_session
+    content_type: [sessions, session]
+    name: Can add session
+  model: auth.permission
+- fields:
+    codename: change_session
+    content_type: [sessions, session]
+    name: Can change session
+  model: auth.permission
+- fields:
+    codename: delete_session
+    content_type: [sessions, session]
+    name: Can delete session
+  model: auth.permission
+- fields:
+    codename: add_site
+    content_type: [sites, site]
+    name: Can add site
+  model: auth.permission
+- fields:
+    codename: change_site
+    content_type: [sites, site]
+    name: Can change site
+  model: auth.permission
+- fields:
+    codename: delete_site
+    content_type: [sites, site]
+    name: Can delete site
+  model: auth.permission
+- fields:
+    codename: add_redirect
+    content_type: [redirects, redirect]
+    name: Can add redirect
+  model: auth.permission
+- fields:
+    codename: change_redirect
+    content_type: [redirects, redirect]
+    name: Can change redirect
+  model: auth.permission
+- fields:
+    codename: delete_redirect
+    content_type: [redirects, redirect]
+    name: Can delete redirect
+  model: auth.permission
+- fields:
+    codename: add_featuredimage
+    content_type: [home, featuredimage]
+    name: Can add featured image
+  model: auth.permission
+- fields:
+    codename: change_featuredimage
+    content_type: [home, featuredimage]
+    name: Can change featured image
+  model: auth.permission
+- fields:
+    codename: delete_featuredimage
+    content_type: [home, featuredimage]
+    name: Can delete featured image
+  model: auth.permission
+- fields:
+    codename: add_customer
+    content_type: [customers, customer]
+    name: Can add customer
+  model: auth.permission
+- fields:
+    codename: change_customer
+    content_type: [customers, customer]
+    name: Can change customer
+  model: auth.permission
+- fields:
+    codename: delete_customer
+    content_type: [customers, customer]
+    name: Can delete customer
+  model: auth.permission
+- fields:
+    codename: add_customerimage
+    content_type: [customers, customerimage]
+    name: Can add customer image
+  model: auth.permission
+- fields:
+    codename: change_customerimage
+    content_type: [customers, customerimage]
+    name: Can change customer image
+  model: auth.permission
+- fields:
+    codename: delete_customerimage
+    content_type: [customers, customerimage]
+    name: Can delete customer image
+  model: auth.permission
+- fields:
+    codename: add_testimonial
+    content_type: [customers, testimonial]
+    name: Can add testimonial
+  model: auth.permission
+- fields:
+    codename: change_testimonial
+    content_type: [customers, testimonial]
+    name: Can change testimonial
+  model: auth.permission
+- fields:
+    codename: delete_testimonial
+    content_type: [customers, testimonial]
+    name: Can delete testimonial
+  model: auth.permission
+- fields:
+    codename: add_address
+    content_type: [customers, address]
+    name: Can add address
+  model: auth.permission
+- fields:
+    codename: change_address
+    content_type: [customers, address]
+    name: Can change address
+  model: auth.permission
+- fields:
+    codename: delete_address
+    content_type: [customers, address]
+    name: Can delete address
+  model: auth.permission
+- fields:
+    codename: add_importedorder
+    content_type: [orders, importedorder]
+    name: Can add imported order
+  model: auth.permission
+- fields:
+    codename: change_importedorder
+    content_type: [orders, importedorder]
+    name: Can change imported order
+  model: auth.permission
+- fields:
+    codename: delete_importedorder
+    content_type: [orders, importedorder]
+    name: Can delete imported order
+  model: auth.permission
+- fields:
+    codename: add_importedorderline
+    content_type: [orders, importedorderline]
+    name: Can add imported order line
+  model: auth.permission
+- fields:
+    codename: change_importedorderline
+    content_type: [orders, importedorderline]
+    name: Can change imported order line
+  model: auth.permission
+- fields:
+    codename: delete_importedorderline
+    content_type: [orders, importedorderline]
+    name: Can delete imported order line
+  model: auth.permission
+- fields:
+    codename: add_order
+    content_type: [orders, order]
+    name: Can add order
+  model: auth.permission
+- fields:
+    codename: change_order
+    content_type: [orders, order]
+    name: Can change order
+  model: auth.permission
+- fields:
+    codename: delete_order
+    content_type: [orders, order]
+    name: Can delete order
+  model: auth.permission
+- fields:
+    codename: add_orderpayment
+    content_type: [orders, orderpayment]
+    name: Can add order payment
+  model: auth.permission
+- fields:
+    codename: change_orderpayment
+    content_type: [orders, orderpayment]
+    name: Can change order payment
+  model: auth.permission
+- fields:
+    codename: delete_orderpayment
+    content_type: [orders, orderpayment]
+    name: Can delete order payment
+  model: auth.permission
+- fields:
+    codename: add_categoryimage
+    content_type: [products, categoryimage]
+    name: Can add category image
+  model: auth.permission
+- fields:
+    codename: change_categoryimage
+    content_type: [products, categoryimage]
+    name: Can change category image
+  model: auth.permission
+- fields:
+    codename: delete_categoryimage
+    content_type: [products, categoryimage]
+    name: Can delete category image
+  model: auth.permission
+- fields:
+    codename: add_categories
+    content_type: [products, categories]
+    name: Can add Category
+  model: auth.permission
+- fields:
+    codename: change_categories
+    content_type: [products, categories]
+    name: Can change Category
+  model: auth.permission
+- fields:
+    codename: delete_categories
+    content_type: [products, categories]
+    name: Can delete Category
+  model: auth.permission
+- fields:
+    codename: add_choicecategory
+    content_type: [products, choicecategory]
+    name: Can add choice category
+  model: auth.permission
+- fields:
+    codename: change_choicecategory
+    content_type: [products, choicecategory]
+    name: Can change choice category
+  model: auth.permission
+- fields:
+    codename: delete_choicecategory
+    content_type: [products, choicecategory]
+    name: Can delete choice category
+  model: auth.permission
+- fields:
+    codename: add_option
+    content_type: [products, option]
+    name: Can add option
+  model: auth.permission
+- fields:
+    codename: change_option
+    content_type: [products, option]
+    name: Can change option
+  model: auth.permission
+- fields:
+    codename: delete_option
+    content_type: [products, option]
+    name: Can delete option
+  model: auth.permission
+- fields:
+    codename: add_choice
+    content_type: [products, choice]
+    name: Can add choice
+  model: auth.permission
+- fields:
+    codename: change_choice
+    content_type: [products, choice]
+    name: Can change choice
+  model: auth.permission
+- fields:
+    codename: delete_choice
+    content_type: [products, choice]
+    name: Can delete choice
+  model: auth.permission
+- fields:
+    codename: add_productimage
+    content_type: [products, productimage]
+    name: Can add product image
+  model: auth.permission
+- fields:
+    codename: change_productimage
+    content_type: [products, productimage]
+    name: Can change product image
+  model: auth.permission
+- fields:
+    codename: delete_productimage
+    content_type: [products, productimage]
+    name: Can delete product image
+  model: auth.permission
+- fields:
+    codename: add_product
+    content_type: [products, product]
+    name: Can add product
+  model: auth.permission
+- fields:
+    codename: change_product
+    content_type: [products, product]
+    name: Can change product
+  model: auth.permission
+- fields:
+    codename: delete_product
+    content_type: [products, product]
+    name: Can delete product
+  model: auth.permission
+- fields:
+    codename: add_prodopt
+    content_type: [products, prodopt]
+    name: Can add Product Option
+  model: auth.permission
+- fields:
+    codename: change_prodopt
+    content_type: [products, prodopt]
+    name: Can change Product Option
+  model: auth.permission
+- fields:
+    codename: delete_prodopt
+    content_type: [products, prodopt]
+    name: Can delete Product Option
+  model: auth.permission
+- fields:
+    codename: add_prodoptchoice
+    content_type: [products, prodoptchoice]
+    name: Can add Product-Option Choice
+  model: auth.permission
+- fields:
+    codename: change_prodoptchoice
+    content_type: [products, prodoptchoice]
+    name: Can change Product-Option Choice
+  model: auth.permission
+- fields:
+    codename: delete_prodoptchoice
+    content_type: [products, prodoptchoice]
+    name: Can delete Product-Option Choice
+  model: auth.permission
+- fields:
+    codename: add_option2
+    content_type: [products, option]
+    name: Can add option2
+  model: auth.permission
+- fields:
+    codename: change_option2
+    content_type: [products, option]
+    name: Can change option2
+  model: auth.permission
+- fields:
+    codename: delete_option2
+    content_type: [products, option]
+    name: Can delete option2
+  model: auth.permission
+- fields:
+    codename: add_post
+    content_type: [bloglets, post]
+    name: Can add post
+  model: auth.permission
+- fields:
+    codename: change_post
+    content_type: [bloglets, post]
+    name: Can change post
+  model: auth.permission
+- fields:
+    codename: delete_post
+    content_type: [bloglets, post]
+    name: Can delete post
+  model: auth.permission
+- fields:
+    codename: add_category
+    content_type: [bloglets, category]
+    name: Can add category
+  model: auth.permission
+- fields:
+    codename: change_category
+    content_type: [bloglets, category]
+    name: Can change category
+  model: auth.permission
+- fields:
+    codename: delete_category
+    content_type: [bloglets, category]
+    name: Can delete category
+  model: auth.permission
+- fields:
+    codename: add_catax
+    content_type: [catax, catax]
+    name: Can add catax
+  model: auth.permission
+- fields:
+    codename: change_catax
+    content_type: [catax, catax]
+    name: Can change catax
+  model: auth.permission
+- fields:
+    codename: delete_catax
+    content_type: [catax, catax]
+    name: Can delete catax
+  model: auth.permission
+- fields:
+    codename: add_sql
+    content_type: [sqls, sql]
+    name: Can add sql
+  model: auth.permission
+- fields:
+    codename: change_sql
+    content_type: [sqls, sql]
+    name: Can change sql
+  model: auth.permission
+- fields:
+    codename: delete_sql
+    content_type: [sqls, sql]
+    name: Can delete sql
+  model: auth.permission
+- fields:
+    codename: add_quote
+    content_type: [quotes, quote]
+    name: Can add quote
+  model: auth.permission
+- fields:
+    codename: change_quote
+    content_type: [quotes, quote]
+    name: Can change quote
+  model: auth.permission
+- fields:
+    codename: delete_quote
+    content_type: [quotes, quote]
+    name: Can delete quote
+  model: auth.permission
+- fields:
+    codename: add_quotelineitem
+    content_type: [quotes, quotelineitem]
+    name: Can add quote line item
+  model: auth.permission
+- fields:
+    codename: change_quotelineitem
+    content_type: [quotes, quotelineitem]
+    name: Can change quote line item
+  model: auth.permission
+- fields:
+    codename: delete_quotelineitem
+    content_type: [quotes, quotelineitem]
+    name: Can delete quote line item
+  model: auth.permission
+- fields:
+    codename: add_quickpage
+    content_type: [quickpages, quickpage]
+    name: Can add quick page
+  model: auth.permission
+- fields:
+    codename: change_quickpage
+    content_type: [quickpages, quickpage]
+    name: Can change quick page
+  model: auth.permission
+- fields:
+    codename: delete_quickpage
+    content_type: [quickpages, quickpage]
+    name: Can delete quick page
+  model: auth.permission
+- fields:
+    codename: add_quicksnippet
+    content_type: [quickpages, quicksnippet]
+    name: Can add quick snippet
+  model: auth.permission
+- fields:
+    codename: change_quicksnippet
+    content_type: [quickpages, quicksnippet]
+    name: Can change quick snippet
+  model: auth.permission
+- fields:
+    codename: delete_quicksnippet
+    content_type: [quickpages, quicksnippet]
+    name: Can delete quick snippet
+  model: auth.permission
+- fields:
+    codename: add_userenasignup
+    content_type: [userena, userenasignup]
+    name: Can add userena registration
+  model: auth.permission
+- fields:
+    codename: change_userenasignup
+    content_type: [userena, userenasignup]
+    name: Can change userena registration
+  model: auth.permission
+- fields:
+    codename: delete_userenasignup
+    content_type: [userena, userenasignup]
+    name: Can delete userena registration
+  model: auth.permission
+- fields:
+    codename: add_userobjectpermission
+    content_type: [guardian, userobjectpermission]
+    name: Can add user object permission
+  model: auth.permission
+- fields:
+    codename: change_userobjectpermission
+    content_type: [guardian, userobjectpermission]
+    name: Can change user object permission
+  model: auth.permission
+- fields:
+    codename: delete_userobjectpermission
+    content_type: [guardian, userobjectpermission]
+    name: Can delete user object permission
+  model: auth.permission
+- fields:
+    codename: add_groupobjectpermission
+    content_type: [guardian, groupobjectpermission]
+    name: Can add group object permission
+  model: auth.permission
+- fields:
+    codename: change_groupobjectpermission
+    content_type: [guardian, groupobjectpermission]
+    name: Can change group object permission
+  model: auth.permission
+- fields:
+    codename: delete_groupobjectpermission
+    content_type: [guardian, groupobjectpermission]
+    name: Can delete group object permission
+  model: auth.permission
+- fields:
+    codename: view_profile
+    content_type: [customers, customer]
+    name: Can view profile
+  model: auth.permission
+- fields:
+    codename: change_profile
+    content_type: [customers, customer]
+    name: Can change profile
+  model: auth.permission
+- fields:
+    codename: delete_profile
+    content_type: [customers, customer]
+    name: Can delete profile
+  model: auth.permission
+- fields:
+    codename: add_source
+    content_type: [easy_thumbnails, source]
+    name: Can add source
+  model: auth.permission
+- fields:
+    codename: change_source
+    content_type: [easy_thumbnails, source]
+    name: Can change source
+  model: auth.permission
+- fields:
+    codename: delete_source
+    content_type: [easy_thumbnails, source]
+    name: Can delete source
+  model: auth.permission
+- fields:
+    codename: add_thumbnail
+    content_type: [easy_thumbnails, thumbnail]
+    name: Can add thumbnail
+  model: auth.permission
+- fields:
+    codename: change_thumbnail
+    content_type: [easy_thumbnails, thumbnail]
+    name: Can change thumbnail
+  model: auth.permission
+- fields:
+    codename: delete_thumbnail
+    content_type: [easy_thumbnails, thumbnail]
+    name: Can delete thumbnail
+  model: auth.permission
+- fields:
+    codename: add_thumbnaildimensions
+    content_type: [easy_thumbnails, thumbnaildimensions]
+    name: Can add thumbnail dimensions
+  model: auth.permission
+- fields:
+    codename: change_thumbnaildimensions
+    content_type: [easy_thumbnails, thumbnaildimensions]
+    name: Can change thumbnail dimensions
+  model: auth.permission
+- fields:
+    codename: delete_thumbnaildimensions
+    content_type: [easy_thumbnails, thumbnaildimensions]
+    name: Can delete thumbnail dimensions
+  model: auth.permission
+- fields:
+    codename: add_tag
+    content_type: [taggit, tag]
+    name: Can add Tag
+  model: auth.permission
+- fields:
+    codename: change_tag
+    content_type: [taggit, tag]
+    name: Can change Tag
+  model: auth.permission
+- fields:
+    codename: delete_tag
+    content_type: [taggit, tag]
+    name: Can delete Tag
+  model: auth.permission
+- fields:
+    codename: add_taggeditem
+    content_type: [taggit, taggeditem]
+    name: Can add Tagged Item
+  model: auth.permission
+- fields:
+    codename: change_taggeditem
+    content_type: [taggit, taggeditem]
+    name: Can change Tagged Item
+  model: auth.permission
+- fields:
+    codename: delete_taggeditem
+    content_type: [taggit, taggeditem]
+    name: Can delete Tagged Item
+  model: auth.permission
+- fields:
+    codename: add_usersocialauth
+    content_type: [social_auth, usersocialauth]
+    name: Can add user social auth
+  model: auth.permission
+- fields:
+    codename: change_usersocialauth
+    content_type: [social_auth, usersocialauth]
+    name: Can change user social auth
+  model: auth.permission
+- fields:
+    codename: delete_usersocialauth
+    content_type: [social_auth, usersocialauth]
+    name: Can delete user social auth
+  model: auth.permission
+- fields:
+    codename: add_nonce
+    content_type: [social_auth, nonce]
+    name: Can add nonce
+  model: auth.permission
+- fields:
+    codename: change_nonce
+    content_type: [social_auth, nonce]
+    name: Can change nonce
+  model: auth.permission
+- fields:
+    codename: delete_nonce
+    content_type: [social_auth, nonce]
+    name: Can delete nonce
+  model: auth.permission
+- fields:
+    codename: add_association
+    content_type: [social_auth, association]
+    name: Can add association
+  model: auth.permission
+- fields:
+    codename: change_association
+    content_type: [social_auth, association]
+    name: Can change association
+  model: auth.permission
+- fields:
+    codename: delete_association
+    content_type: [social_auth, association]
+    name: Can delete association
+  model: auth.permission
+- fields:
+    codename: add_code
+    content_type: [social_auth, code]
+    name: Can add code
+  model: auth.permission
+- fields:
+    codename: change_code
+    content_type: [social_auth, code]
+    name: Can change code
+  model: auth.permission
+- fields:
+    codename: delete_code
+    content_type: [social_auth, code]
+    name: Can delete code
+  model: auth.permission
+- fields:
+    codename: add_key
+    content_type: [email_extras, key]
+    name: Can add key
+  model: auth.permission
+- fields:
+    codename: change_key
+    content_type: [email_extras, key]
+    name: Can change key
+  model: auth.permission
+- fields:
+    codename: delete_key
+    content_type: [email_extras, key]
+    name: Can delete key
+  model: auth.permission
+- fields:
+    codename: add_address
+    content_type: [email_extras, address]
+    name: Can add address
+  model: auth.permission
+- fields:
+    codename: change_address
+    content_type: [email_extras, address]
+    name: Can change address
+  model: auth.permission
+- fields:
+    codename: delete_address
+    content_type: [email_extras, address]
+    name: Can delete address
+  model: auth.permission
+- fields:
+    codename: add_csvimport
+    content_type: [csvimport, csvimport]
+    name: Can add csv import
+  model: auth.permission
+- fields:
+    codename: change_csvimport
+    content_type: [csvimport, csvimport]
+    name: Can change csv import
+  model: auth.permission
+- fields:
+    codename: delete_csvimport
+    content_type: [csvimport, csvimport]
+    name: Can delete csv import
+  model: auth.permission
+- fields:
+    codename: add_importmodel
+    content_type: [csvimport, importmodel]
+    name: Can add import model
+  model: auth.permission
+- fields:
+    codename: change_importmodel
+    content_type: [csvimport, importmodel]
+    name: Can change import model
+  model: auth.permission
+- fields:
+    codename: delete_importmodel
+    content_type: [csvimport, importmodel]
+    name: Can delete import model
+  model: auth.permission
+- fields:
+    codename: add_script
+    content_type: [webshell, script]
+    name: Can add script
+  model: auth.permission
+- fields:
+    codename: change_script
+    content_type: [webshell, script]
+    name: Can change script
+  model: auth.permission
+- fields:
+    codename: delete_script
+    content_type: [webshell, script]
+    name: Can delete script
+  model: auth.permission
+- fields:
+    codename: add_costspersku
+    content_type: [legacy, costspersku]
+    name: Can add costspersku
+  model: auth.permission
+- fields:
+    codename: change_costspersku
+    content_type: [legacy, costspersku]
+    name: Can change costspersku
+  model: auth.permission
+- fields:
+    codename: delete_costspersku
+    content_type: [legacy, costspersku]
+    name: Can delete costspersku
+  model: auth.permission
+- fields:
+    codename: add_optchoices
+    content_type: [legacy, optchoices]
+    name: Can add optchoices
+  model: auth.permission
+- fields:
+    codename: change_optchoices
+    content_type: [legacy, optchoices]
+    name: Can change optchoices
+  model: auth.permission
+- fields:
+    codename: delete_optchoices
+    content_type: [legacy, optchoices]
+    name: Can delete optchoices
+  model: auth.permission
+- fields:
+    codename: add_categories
+    content_type: [legacy, categories]
+    name: Can add categories
+  model: auth.permission
+- fields:
+    codename: change_categories
+    content_type: [legacy, categories]
+    name: Can change categories
+  model: auth.permission
+- fields:
+    codename: delete_categories
+    content_type: [legacy, categories]
+    name: Can delete categories
+  model: auth.permission
+- fields:
+    codename: add_addresses
+    content_type: [legacy, addresses]
+    name: Can add addresses
+  model: auth.permission
+- fields:
+    codename: change_addresses
+    content_type: [legacy, addresses]
+    name: Can change addresses
+  model: auth.permission
+- fields:
+    codename: delete_addresses
+    content_type: [legacy, addresses]
+    name: Can delete addresses
+  model: auth.permission
+- fields:
+    codename: add_emails
+    content_type: [legacy, emails]
+    name: Can add emails
+  model: auth.permission
+- fields:
+    codename: change_emails
+    content_type: [legacy, emails]
+    name: Can change emails
+  model: auth.permission
+- fields:
+    codename: delete_emails
+    content_type: [legacy, emails]
+    name: Can delete emails
+  model: auth.permission
+- fields:
+    codename: add_creditcards
+    content_type: [legacy, creditcards]
+    name: Can add creditcards
+  model: auth.permission
+- fields:
+    codename: change_creditcards
+    content_type: [legacy, creditcards]
+    name: Can change creditcards
+  model: auth.permission
+- fields:
+    codename: delete_creditcards
+    content_type: [legacy, creditcards]
+    name: Can delete creditcards
+  model: auth.permission
+- fields:
+    codename: add_items
+    content_type: [legacy, items]
+    name: Can add items
+  model: auth.permission
+- fields:
+    codename: change_items
+    content_type: [legacy, items]
+    name: Can change items
+  model: auth.permission
+- fields:
+    codename: delete_items
+    content_type: [legacy, items]
+    name: Can delete items
+  model: auth.permission
+- fields:
+    codename: add_issues
+    content_type: [legacy, issues]
+    name: Can add issues
+  model: auth.permission
+- fields:
+    codename: change_issues
+    content_type: [legacy, issues]
+    name: Can change issues
+  model: auth.permission
+- fields:
+    codename: delete_issues
+    content_type: [legacy, issues]
+    name: Can delete issues
+  model: auth.permission
+- fields:
+    codename: add_itemcomponents
+    content_type: [legacy, itemcomponents]
+    name: Can add itemcomponents
+  model: auth.permission
+- fields:
+    codename: change_itemcomponents
+    content_type: [legacy, itemcomponents]
+    name: Can change itemcomponents
+  model: auth.permission
+- fields:
+    codename: delete_itemcomponents
+    content_type: [legacy, itemcomponents]
+    name: Can delete itemcomponents
+  model: auth.permission
+- fields:
+    codename: add_migrationhistory
+    content_type: [south, migrationhistory]
+    name: Can add migration history
+  model: auth.permission
+- fields:
+    codename: change_migrationhistory
+    content_type: [south, migrationhistory]
+    name: Can change migration history
+  model: auth.permission
+- fields:
+    codename: delete_migrationhistory
+    content_type: [south, migrationhistory]
+    name: Can delete migration history
+  model: auth.permission
+- fields:
+    codename: add_choice
+    content_type: [legacy, choice]
+    name: Can add choice
+  model: auth.permission
+- fields:
+    codename: change_choice
+    content_type: [legacy, choice]
+    name: Can change choice
+  model: auth.permission
+- fields:
+    codename: delete_choice
+    content_type: [legacy, choice]
+    name: Can delete choice
+  model: auth.permission
+- fields:
+    codename: add_option
+    content_type: [legacy, option]
+    name: Can add option
+  model: auth.permission
+- fields:
+    codename: change_option
+    content_type: [legacy, option]
+    name: Can change option
+  model: auth.permission
+- fields:
+    codename: delete_option
+    content_type: [legacy, option]
+    name: Can delete option
+  model: auth.permission
+- fields:
+    codename: add_product
+    content_type: [legacy, product]
+    name: Can add product
+  model: auth.permission
+- fields:
+    codename: change_product
+    content_type: [legacy, product]
+    name: Can change product
+  model: auth.permission
+- fields:
+    codename: delete_product
+    content_type: [legacy, product]
+    name: Can delete product
+  model: auth.permission
+- fields:
+    codename: add_prodopt
+    content_type: [legacy, prodopt]
+    name: Can add prodopt
+  model: auth.permission
+- fields:
+    codename: change_prodopt
+    content_type: [legacy, prodopt]
+    name: Can change prodopt
+  model: auth.permission
+- fields:
+    codename: delete_prodopt
+    content_type: [legacy, prodopt]
+    name: Can delete prodopt
+  model: auth.permission
+- fields:
+    codename: add_prodoptchoice
+    content_type: [legacy, prodoptchoice]
+    name: Can add prodoptchoice
+  model: auth.permission
+- fields:
+    codename: change_prodoptchoice
+    content_type: [legacy, prodoptchoice]
+    name: Can change prodoptchoice
+  model: auth.permission
+- fields:
+    codename: delete_prodoptchoice
+    content_type: [legacy, prodoptchoice]
+    name: Can delete prodoptchoice
+  model: auth.permission
+- fields:
+    codename: add_choicecategory
+    content_type: [legacy, choicecategory]
+    name: Can add choice category
+  model: auth.permission
+- fields:
+    codename: change_choicecategory
+    content_type: [legacy, choicecategory]
+    name: Can change choice category
+  model: auth.permission
+- fields:
+    codename: delete_choicecategory
+    content_type: [legacy, choicecategory]
+    name: Can delete choice category
+  model: auth.permission
+- fields:
+    codename: add_template
+    content_type: [dbtemplates, template]
+    name: Can add template
+  model: auth.permission
+- fields:
+    codename: change_template
+    content_type: [dbtemplates, template]
+    name: Can change template
+  model: auth.permission
+- fields:
+    codename: delete_template
+    content_type: [dbtemplates, template]
+    name: Can delete template
+  model: auth.permission
+- fields:
+    codename: add_folder
+    content_type: [filer, folder]
+    name: Can add Folder
+  model: auth.permission
+- fields:
+    codename: change_folder
+    content_type: [filer, folder]
+    name: Can change Folder
+  model: auth.permission
+- fields:
+    codename: delete_folder
+    content_type: [filer, folder]
+    name: Can delete Folder
+  model: auth.permission
+- fields:
+    codename: can_use_directory_listing
+    content_type: [filer, folder]
+    name: Can use directory listing
+  model: auth.permission
+- fields:
+    codename: add_folderpermission
+    content_type: [filer, folderpermission]
+    name: Can add Folder Permission
+  model: auth.permission
+- fields:
+    codename: change_folderpermission
+    content_type: [filer, folderpermission]
+    name: Can change Folder Permission
+  model: auth.permission
+- fields:
+    codename: delete_folderpermission
+    content_type: [filer, folderpermission]
+    name: Can delete Folder Permission
+  model: auth.permission
+- fields:
+    codename: add_file
+    content_type: [filer, file]
+    name: Can add File
+  model: auth.permission
+- fields:
+    codename: change_file
+    content_type: [filer, file]
+    name: Can change File
+  model: auth.permission
+- fields:
+    codename: delete_file
+    content_type: [filer, file]
+    name: Can delete File
+  model: auth.permission
+- fields:
+    codename: add_image
+    content_type: [filer, image]
+    name: Can add Image
+  model: auth.permission
+- fields:
+    codename: change_image
+    content_type: [filer, image]
+    name: Can change Image
+  model: auth.permission
+- fields:
+    codename: delete_image
+    content_type: [filer, image]
+    name: Can delete Image
+  model: auth.permission
+- fields:
+    codename: add_clipboard
+    content_type: [filer, clipboard]
+    name: Can add Clipboard
+  model: auth.permission
+- fields:
+    codename: change_clipboard
+    content_type: [filer, clipboard]
+    name: Can change Clipboard
+  model: auth.permission
+- fields:
+    codename: delete_clipboard
+    content_type: [filer, clipboard]
+    name: Can delete Clipboard
+  model: auth.permission
+- fields:
+    codename: add_clipboarditem
+    content_type: [filer, clipboarditem]
+    name: Can add Clipboard item
+  model: auth.permission
+- fields:
+    codename: change_clipboarditem
+    content_type: [filer, clipboarditem]
+    name: Can change Clipboard item
+  model: auth.permission
+- fields:
+    codename: delete_clipboarditem
+    content_type: [filer, clipboarditem]
+    name: Can delete Clipboard item
+  model: auth.permission
+- fields:
+    codename: add_image
+    content_type: [legacy, image]
+    name: Can add image
+  model: auth.permission
+- fields:
+    codename: change_image
+    content_type: [legacy, image]
+    name: Can change image
+  model: auth.permission
+- fields:
+    codename: delete_image
+    content_type: [legacy, image]
+    name: Can delete image
+  model: auth.permission
+- fields:
+    codename: add_customer2
+    content_type: [customers, customer]
+    name: Can add eRacks Customer
+  model: auth.permission
+- fields:
+    codename: change_customer2
+    content_type: [customers, customer]
+    name: Can change eRacks Customer
+  model: auth.permission
+- fields:
+    codename: delete_customer2
+    content_type: [customers, customer]
+    name: Can delete eRacks Customer
+  model: auth.permission
+- fields:
+    codename: add_amodel
+    content_type: [taggit_templatetags, amodel]
+    name: Can add a model
+  model: auth.permission
+- fields:
+    codename: change_amodel
+    content_type: [taggit_templatetags, amodel]
+    name: Can change a model
+  model: auth.permission
+- fields:
+    codename: delete_amodel
+    content_type: [taggit_templatetags, amodel]
+    name: Can delete a model
+  model: auth.permission
+- fields:
+    codename: add_snippet
+    content_type: [obdjects, snippet]
+    name: Can add snippet
+  model: auth.permission
+- fields:
+    codename: change_snippet
+    content_type: [obdjects, snippet]
+    name: Can change snippet
+  model: auth.permission
+- fields:
+    codename: delete_snippet
+    content_type: [obdjects, snippet]
+    name: Can delete snippet
+  model: auth.permission
+- fields:
+    codename: add_linkedinprofile
+    content_type: [linkedin, linkedinprofile]
+    name: Can add linked in profile
+  model: auth.permission
+- fields:
+    codename: change_linkedinprofile
+    content_type: [linkedin, linkedinprofile]
+    name: Can change linked in profile
+  model: auth.permission
+- fields:
+    codename: delete_linkedinprofile
+    content_type: [linkedin, linkedinprofile]
+    name: Can delete linked in profile
+  model: auth.permission
+- fields:
+    codename: add_linkedinrequesttoken
+    content_type: [linkedin, linkedinrequesttoken]
+    name: Can add linked in request token
+  model: auth.permission
+- fields:
+    codename: change_linkedinrequesttoken
+    content_type: [linkedin, linkedinrequesttoken]
+    name: Can change linked in request token
+  model: auth.permission
+- fields:
+    codename: delete_linkedinrequesttoken
+    content_type: [linkedin, linkedinrequesttoken]
+    name: Can delete linked in request token
+  model: auth.permission
+- fields:
+    codename: add_linkedinaccesstoken
+    content_type: [linkedin, linkedinaccesstoken]
+    name: Can add linked in access token
+  model: auth.permission
+- fields:
+    codename: change_linkedinaccesstoken
+    content_type: [linkedin, linkedinaccesstoken]
+    name: Can change linked in access token
+  model: auth.permission
+- fields:
+    codename: delete_linkedinaccesstoken
+    content_type: [linkedin, linkedinaccesstoken]
+    name: Can delete linked in access token
+  model: auth.permission
+- fields:
+    codename: add_bookmark
+    content_type: [menu, bookmark]
+    name: Can add bookmark
+  model: auth.permission
+- fields:
+    codename: change_bookmark
+    content_type: [menu, bookmark]
+    name: Can change bookmark
+  model: auth.permission
+- fields:
+    codename: delete_bookmark
+    content_type: [menu, bookmark]
+    name: Can delete bookmark
+  model: auth.permission
+- fields:
+    codename: add_dashboardpreferences
+    content_type: [dashboard, dashboardpreferences]
+    name: Can add dashboard preferences
+  model: auth.permission
+- fields:
+    codename: change_dashboardpreferences
+    content_type: [dashboard, dashboardpreferences]
+    name: Can change dashboard preferences
+  model: auth.permission
+- fields:
+    codename: delete_dashboardpreferences
+    content_type: [dashboard, dashboardpreferences]
+    name: Can delete dashboard preferences
+  model: auth.permission
+- fields:
+    codename: add_quicksnippet
+    content_type: [obdjects, snippet]
+    name: Can add quick snippet
+  model: auth.permission
+- fields:
+    codename: change_quicksnippet
+    content_type: [obdjects, snippet]
+    name: Can change quick snippet
+  model: auth.permission
+- fields:
+    codename: delete_quicksnippet
+    content_type: [obdjects, snippet]
+    name: Can delete quick snippet
+  model: auth.permission
+- fields:
+    codename: add_usersocialauth
+    content_type: [default, usersocialauth]
+    name: Can add user social auth
+  model: auth.permission
+- fields:
+    codename: change_usersocialauth
+    content_type: [default, usersocialauth]
+    name: Can change user social auth
+  model: auth.permission
+- fields:
+    codename: delete_usersocialauth
+    content_type: [default, usersocialauth]
+    name: Can delete user social auth
+  model: auth.permission
+- fields:
+    codename: add_nonce
+    content_type: [default, nonce]
+    name: Can add nonce
+  model: auth.permission
+- fields:
+    codename: change_nonce
+    content_type: [default, nonce]
+    name: Can change nonce
+  model: auth.permission
+- fields:
+    codename: delete_nonce
+    content_type: [default, nonce]
+    name: Can delete nonce
+  model: auth.permission
+- fields:
+    codename: add_association
+    content_type: [default, association]
+    name: Can add association
+  model: auth.permission
+- fields:
+    codename: change_association
+    content_type: [default, association]
+    name: Can change association
+  model: auth.permission
+- fields:
+    codename: delete_association
+    content_type: [default, association]
+    name: Can delete association
+  model: auth.permission
+- fields:
+    codename: add_code
+    content_type: [default, code]
+    name: Can add code
+  model: auth.permission
+- fields:
+    codename: change_code
+    content_type: [default, code]
+    name: Can change code
+  model: auth.permission
+- fields:
+    codename: delete_code
+    content_type: [default, code]
+    name: Can delete code
+  model: auth.permission
+- fields:
+    codename: add_related
+    content_type: [easy_select2, related]
+    name: Can add related
+  model: auth.permission
+- fields:
+    codename: change_related
+    content_type: [easy_select2, related]
+    name: Can change related
+  model: auth.permission
+- fields:
+    codename: delete_related
+    content_type: [easy_select2, related]
+    name: Can delete related
+  model: auth.permission
+- fields:
+    codename: add_testfieldsmodel
+    content_type: [easy_select2, testfieldsmodel]
+    name: Can add test fields model
+  model: auth.permission
+- fields:
+    codename: change_testfieldsmodel
+    content_type: [easy_select2, testfieldsmodel]
+    name: Can change test fields model
+  model: auth.permission
+- fields:
+    codename: delete_testfieldsmodel
+    content_type: [easy_select2, testfieldsmodel]
+    name: Can delete test fields model
+  model: auth.permission
+- fields:
+    codename: add_emptymodel
+    content_type: [easy_select2, emptymodel]
+    name: Can add empty model
+  model: auth.permission
+- fields:
+    codename: change_emptymodel
+    content_type: [easy_select2, emptymodel]
+    name: Can change empty model
+  model: auth.permission
+- fields:
+    codename: delete_emptymodel
+    content_type: [easy_select2, emptymodel]
+    name: Can delete empty model
+  model: auth.permission
+- fields:
+    codename: add_ipaddress
+    content_type: [home, ipaddress]
+    name: Can add IpAddress
+  model: auth.permission
+- fields:
+    codename: change_ipaddress
+    content_type: [home, ipaddress]
+    name: Can change IpAddress
+  model: auth.permission
+- fields:
+    codename: delete_ipaddress
+    content_type: [home, ipaddress]
+    name: Can delete IpAddress
+  model: auth.permission

@@ -1,0 +1,45 @@
+machine:
+  services:
+    - docker
+  timezone:
+    America/Los_Angeles
+
+checkout:
+  post:
+    - git submodule sync
+    - git submodule update --init
+
+dependencies:
+  pre:
+    #- wget -O - https://repo.saltstack.com/apt/ubuntu/ubuntu12/latest/SALTSTACK-GPG-KEY.pub | sudo apt-key add -
+    #- sudo apt-add-repository -y 'deb http://repo.saltstack.com/apt/ubuntu/ubuntu12/latest precise main'
+    - sudo apt-get update
+    #; sudo apt-get install python-psycopg2 salt-minion
+  #override:
+    #- sudo ./conf/install-packages.sh
+    #- pip install psycopg2
+    # salt>=2015.5
+    #- pip install -r conf/requirements.txt
+
+compile:
+  override:
+    - cd conf && docker build -t eracks11 .
+    - docker pull postgres
+
+test:
+  pre:
+    - pwd
+    - cd conf && ./docker-setup.sh
+    # cd conf && ./salt-requirements.sh
+    #- python manage.py compilethemes
+  override:
+    - pwd
+    - cd conf && ./docker-manage.sh test
+    #- cd conf && env CIRCLECI=1 ./docker-manage.sh test
+    #- python manage.py test
+
+#deployment:
+#  production:
+#    branch: brahms
+#    commands:
+#      - fab deploy

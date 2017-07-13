@@ -1,0 +1,63 @@
+-   fields: {comments: Meep-meep., created: ! '2012-07-19 14:32:32.355567', department: Of
+            Redundancy department, email: joe@eracks.com, email2: '', mugshot: mugshots/6e9f208550.jpg,
+        organization: The Libre Group, phone: 408-354-4325, phone2: '', privacy: closed,
+        published: true, title: Chief cook and bottle washer, updated: ! '2016-01-07
+            09:12:33.437475', user: 2}
+    model: customers.customer
+    pk: 2
+-   fields:
+        date_joined: 2009-10-15 12:36:12
+        email: joe@eracks.com
+        first_name: eRacks
+        groups: []
+        is_active: true
+        is_staff: true
+        is_superuser: true
+        last_login: 2016-08-28 15:31:33.891383
+        last_name: Systems
+        password: pbkdf2_sha256$20000$Jf8hBDAoPRdW$ZMVfdI9aA35MkfqzSKw2j+IaQhSornKfNQMCBJhBPdM=
+        user_permissions: []
+        username: joe
+    model: auth.user
+    pk: 2
+-   fields: {activation_key: '', activation_notification_send: false, email_confirmation_key: '',
+        email_confirmation_key_created: null, email_unconfirmed: '', last_active: ! '2013-10-25
+            13:14:12', user: 153}
+    model: userena.userenasignup
+    pk: 96
+-   fields: {comments: '', created: ! '2013-10-25 13:14:28.196499', department: '',
+        email: norwoh@comcast.net, email2: norwoh@gmail.com, mugshot: '', organization: sulima.com,
+        phone: 609-893-0163, phone2: 609-321-1191, privacy: closed, published: true,
+        title: '', updated: ! '2013-10-25 18:26:40.097870', user: 153}
+    model: customers.customer
+    pk: 55132
+-   fields:
+        date_joined: 2013-10-25 13:14:27
+        email: norwoh@comcast.net
+        first_name: Saffa
+        groups: []
+        is_active: true
+        is_staff: false
+        is_superuser: false
+        last_login: 2013-10-25 16:57:08.214512
+        last_name: Kemokai
+        password: pbkdf2_sha256$10000$Jet5pEzD6eYF$rO+PvzXGKyCGCBqY6KEaI+3/KXQnHegMLFpLeJsA4Hw=
+        user_permissions: []
+        username: skemokai
+    model: auth.user
+    pk: 153
+-   fields: {approved_by: 2, comments: '', created: ! '2013-10-25 15:48:41.789684',
+        customer: 55132, customer_reference: Saffa Kemokai, discount: 0.0, discount_type: $,
+        image: null, modified: ! '2015-01-11 16:49:06.638255', purchase_order: email,
+        quote_number: 102113-JJW-Saffa, shipping: 40.0, shipping_method: Ground, target: 455.0,
+        terms: Credit Card, valid_for: 10}
+    model: quotes.quote
+    pk: 55143
+-   fields: {comments: '', cost: 280.0, created: ! '2013-10-25 15:48:41.805766', description: "1U
+            server\r\nServer-class motherboard\r\nXeon CPU\r\nDual NICs\r\n2GB RAM\r\nslim
+            DVD drive\r\n1TB Hard drive\r\n\r\n$485.00 Main Unit\r\n$35.00 1TB drive
+            Upgrade\r\n$35.00 Shipping\r\n$555.00 total\r\n", image: null, model: Custom
+            Value 1U Server, modified: ! '2015-01-11 16:49:06.748572', price: 555.0,
+        quantity: 1, quote: 55143, shipping: 0.0}
+    model: quotes.quotelineitem
+    pk: 55144

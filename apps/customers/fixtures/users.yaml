@@ -1,0 +1,57 @@
+- fields:
+    date_joined: 2009-10-15 12:36:12
+    email: joe@eracks.com
+    first_name: eRacks
+    groups: []
+    is_active: true
+    is_staff: true
+    is_superuser: true
+    last_login: 2015-12-13 08:45:52.274677
+    last_name: Systems
+    password: pbkdf2_sha256$15000$s7moD0XDtQq8$Wisd6ar7/Y86NDySG6xPwAmsTF1fXrB6b4BOFcF5rgU=
+    user_permissions: []
+    username: joe
+  model: auth.user
+- fields:
+    date_joined: 2012-12-01 06:29:44.133371
+    email: Sergey@yopmail.com
+    first_name: ''
+    groups: []
+    is_active: true
+    is_staff: false
+    is_superuser: false
+    last_login: 2012-12-01 06:30:13.473932
+    last_name: ''
+    password: pbkdf2_sha256$10000$tXfEyBobrE46$zqPwdMrGcmcIiNVviWe4a6uCEfXY2rRq3MzMzGYF/m8=
+    user_permissions: []
+    username: Sergey
+  model: auth.user
+  pk: 50
+- fields:
+    date_joined: 2013-04-09 15:36:58.852927
+    email: reedleybob@yahoo.com
+    first_name: ''
+    groups: []
+    is_active: true
+    is_staff: false
+    is_superuser: false
+    last_login: 2013-04-09 15:37:29.230480
+    last_name: ''
+    password: pbkdf2_sha256$10000$tZ9og0wTzsQ1$JkGjiQG/vI2qzkj5MDGUwn1Be6gdqXf/G/re/XC3TEI=
+    user_permissions: []
+    username: bobberry
+  model: auth.user
+- fields:
+    date_joined: 2013-10-25 13:14:27
+    email: norwoh@comcast.net
+    first_name: Saffa
+    groups: []
+    is_active: true
+    is_staff: false
+    is_superuser: false
+    last_login: 2013-10-25 16:57:08.214512
+    last_name: Kemokai
+    password: pbkdf2_sha256$10000$Jet5pEzD6eYF$rO+PvzXGKyCGCBqY6KEaI+3/KXQnHegMLFpLeJsA4Hw=
+    user_permissions: []
+    username: skemokai
+  model: auth.user

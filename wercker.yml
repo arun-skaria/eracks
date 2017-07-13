@@ -1,0 +1,168 @@
+#box: ubuntu:xenial
+box: ubuntu:trusty
+
+#build:
+#    steps:
+#        - virtualenv
+
+#build:
+#    steps:
+#        - pip-install
+
+dev:
+    steps:
+        - install-packages:
+            packages: python-psycopg2 openssh-client wget python-pip git mercurial python-dev libxml2-dev libxslt-dev zlib1g-dev libjpeg-dev npm chromium-chromedriver xvfb libffi-dev libcairo2 libpango1.0-0 libgdk-pixbuf2.0-0 shared-mime-info
+
+        - script:
+            name: pip install requirements
+            code: |
+                echo PIP INSTALL REQUIREMENTS
+                ls -l conf
+                cd conf
+                pip install --upgrade pip
+                pip install -r requirements.txt && \
+                echo PIP INSTALL REQUIREMENTS DONE
+
+        - script:
+            name: npm installs
+            code: |
+                echo NPM INSTALLS
+                npm install --global stylus bower # fm salt: --silent --json in /root
+                npm list --global
+                echo NPM INSTALLS DONE
+
+        - script:
+            name: set up envo
+            code: |
+                #echo SET UP ENVO
+                ## alternately:
+                ## cd apps/stheme && python engine.py
+                #./manage.py compilethemes && \
+                #./manage.py collectstatic --link --noinput -v1 && \
+                #echo medium | ./manage.py fb_version_generate && \
+                #echo small | ./manage.py fb_version_generate && \
+                sh ./conf/setup-envo.sh
+                #echo SET UP ENVO DONE
+
+        #- zvelo/docker-save:
+        #    image: my_docker_image
+
+        - script:
+            name: python unit test
+            code: |
+                echo RUN MANAGE TEST
+                pwd
+                ls -l
+                export DBUS_SESSION_BUS_ADDRESS=/dev/null
+                env
+                ./manage.py test && \
+                echo RUN MANAGE TEST DONE
+                #for i in 1 2 3 4 5 6 7 8 9; do echo $i; sleep 600; done
+
+build:
+    steps:
+        - install-packages:  # convert to install_packages script, & call fm docker, salt too
+            packages: python-psycopg2 openssh-client wget python-pip git mercurial python-dev libxml2-dev libxslt-dev zlib1g-dev libjpeg-dev npm chromium-chromedriver xvfb libffi-dev libcairo2 libpango1.0-0 libgdk-pixbuf2.0-0 shared-mime-info
+
+        - script:
+            name: My install packages script
+            code: |
+                sh ./conf/install-packages.sh
+
+        - script:
+            name: pip install requirements
+            code: |
+                echo PIP INSTALL REQUIREMENTS
+                ls -l conf
+                cd conf
+                #me=`id -un`
+                #echo I am $me
+                pip install --upgrade pip
+                pip install -r requirements.txt && \
+                echo PIP INSTALL REQUIREMENTS DONE
+
+        - script:
+            name: npm installs
+            code: |
+                echo NPM INSTALLS
+                # fm salt: --silent --json in /root
+                npm install --global stylus bower && \
+                npm list --global && \
+                echo NPM INSTALLS DONE
+
+        #- script:
+        #    name: bower installs
+        #    code: |
+        #        echo BOWER INSTALLS
+        #        # [INFO    ] Executing command 'bower list --json --config.analytics false --config.interactive false --offline --allow-root' in directory '/pipeline/source/conf'
+        #        bower install magnific-popup:
+        #        echo BOWER INSTALLS DONE
+
+        - script:
+            name: My set up envo script
+            code: |
+                sh ./conf/setup-envo.sh
+
+        # doesn't work:
+        # /pipeline/docker-save-87c213e2-6d2c-4571-9178-5600949377d6/run.sh: line 9: docker: command not found
+        #- zvelo/docker-save:
+        #    image: my_docker_image
+
+        - script:
+            name: python unit test
+            code: |
+                echo RUN MANAGE TEST
+                pwd
+                ls -l
+                export DBUS_SESSION_BUS_ADDRESS=/dev/null
+                env
+                ./manage.py test && \
+                echo RUN MANAGE TEST DONE
+
+oldbuild:
+    steps:
+        - install-packages:
+            packages: openssh-client wget
+
+        - script:
+                name: python unit test
+                code: |
+                  wget -O - https://repo.saltstack.com/apt/ubuntu/14.04/amd64/latest/SALTSTACK-GPG-KEY.pub | sudo apt-key add -
+                  echo deb http://repo.saltstack.com/apt/ubuntu/14.04/amd64/latest trusty main >/etc/apt/sources.list.d/salt.list
+                  apt-get -y update && apt-get -y install salt-minion
+                  python --version
+                  salt-call --version
+                  ls -l eracks
+                  ls -l conf
+                  cd conf
+                  pwd
+                  # no 'sudo' - try without it
+                  ./salt-requirements.sh
+                  #me=`id -un`
+                  #echo I am $me
+                  #salt-call --local --pillar-root=$me --file-root=`pwd` state.template requirements.sls
+                  echo DONE RUNING SALT-REQUIREMENTS
+                  #pip install setuptools -U
+                  #pip install -r requirements.txt
+                  #pip install psycopg2
+                  echo ABOUT TO RUN MANAGE TEST
+                  cd ..
+                  pwd
+                  ls -l
+                  ls -l conf
+                  ls -l conf/env
+                  ls -l conf/env/bin
+                  ls -l conf/env/lib
+                  ls -l conf/env/lib/python2.7
+                  ls -l conf/env/lib/python2.7/site-packages
+                  echo BEFORE
+                  env
+                  source conf/env/bin/activate
+                  echo AFTER
+                  env
+                  conf/env/bin/python manage.py test
+                  echo DONE RUNNING MANAGE TEST
+
+        - zvelo/docker-save:
+            image: my_docker_image

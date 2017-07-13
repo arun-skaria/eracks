@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+ <title>ROR Sitemap for https://eracks.com/</title>
+ <link>https://eracks.com/</link>
+ <description>ROR Sitemap</description>
+
+{% for url in urlset %}
+<item>
+   <title>{% filter force_escape %}{% firstof url.item.meta_title url.item.title %}{% endfilter %}</title>
+   <link>{{ url.location }}</link>
+   <description>{% filter force_escape %}{% firstof url.item.meta_description url.item.title %}{% endfilter %}</description>
+   <ror:updatePeriod>daily</ror:updatePeriod>
+   <ror:sortOrder>{% firstof url.item.sortorder '2' %}</ror:sortOrder>
+   <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+{% endfor %}
+
+</channel>
+</rss>

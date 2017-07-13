@@ -1,0 +1,6 @@
+-   fields: {caption: National Public Radio, created: ! '2012-03-26 14:19:47.956012',
+        customer: null, image: images/customers/npr.gif, link: 'http://www.npr.org/',
+        location: 'Washington, DC', published: true, sortorder: 120, title: NPR, updated: ! '2015-08-18
+            13:23:03.707868'}
+    model: customers.customerimage
+    pk: 53336

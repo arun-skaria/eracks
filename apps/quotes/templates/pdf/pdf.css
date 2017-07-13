@@ -1,0 +1,29 @@
+html, body, table, thead, tbody, tr, th, td, ul, li, a, span, p, h1, h2, h3, h4, h5, h6{padding: 0px;margin: 0px;}
+.tot_div{width: 100%;border: 1px solid #000;padding: 0px;margin: 0px;}
+.tot_div table{max-width: 100%;}
+.tot_div table thead tr th{background-color: #e6e6ff;padding: 10px 0px;}
+.tot_div table thead tr th, .tot_div table tbody tr td{padding: 5px;}
+.shipTo{background:#ffffcc;text-align:left;padding-top:5px;padding-bottom:2px;}
+.billing_addr td {text-align:left;}
+.quote_for{background-color: #e6e6ff;}
+.logo_info{padding-top:10px;}
+.order_details{background: #ffffcc;text-align:left;padding-top:5px;padding-bottom:2px;}
+.subtotal{background: #ffffcc;text-align:right;padding:5px;}
+.width_table{width:100%;}
+.bold{font-size:10px;}
+#text_dec{text-decoration:none; font-size:10px;}
+#tot_subdiv{border: 1px solid #000;}
+#billTo{background:#ffffcc;text-align:left;padding-top:5px;padding-bottom:2px;padding-left:5px;}
+#billing_addr{padding-left:5px;}
+#billing_addr ul{list-style:none;padding-top:10px;}
+#model_id{background: #ffffcc;text-align:left;padding-top:5px;padding-bottom:2px;padding-left:5px;}
+#logo{background-color: #e6e6ff;text-align:left;}
+#logo span{float:left;}
+#logo img{width:100px;height:50px;}
+#quote_info{text-align:left;}
+#model_result{text-align:left;width:100%;}
+#model_result  img{width:50px;height:50px}
+#price_result{text-align:left;width:100%;margin-left:10px}
+#totprice_result{text-align:center;width:100%;margin-left:-25px}
+#terms{font-size:8px; background: #ffffcc;padding:5px 10px;border:none;}
+#confeden_stmt{font-size:8px;background: #e6e6ff;padding:5px 10px;border:none;}

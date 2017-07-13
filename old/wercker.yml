@@ -1,0 +1,86 @@
+#box: ubuntu:xenial
+box: ubuntu:trusty
+
+#build:
+#    steps:
+#        - virtualenv
+
+#build:
+#    steps:
+#        - pip-install
+
+dev:
+    steps:
+        - install-packages:
+            packages: openssh-client wget
+
+        - script:
+                name: Install salt from bootstrap
+                code: |
+                  wget -O - https://repo.saltstack.com/apt/ubuntu/14.04/amd64/latest/SALTSTACK-GPG-KEY.pub | sudo apt-key add -
+                  echo deb http://repo.saltstack.com/apt/ubuntu/14.04/amd64/latest trusty main >/etc/apt/sources.list.d/salt.list
+                  apt-get -y update && apt-get -y install salt-minion
+                  python --version
+                  salt-call --version
+                  ls -l eracks
+                  ls -l conf
+                  cd conf
+                  pwd
+                  echo DONE INSTALLING SALT FROM BOOTSTRAP
+        - script:
+                name: Run salt masterless in eRacks repo
+                code: |
+                  ls -l eracks
+                  ls -l conf
+                  cd conf
+                  pwd
+                  # no 'sudo' - try without it
+                  ./salt-requirements.sh
+                  echo DONE RUNING SALT-REQUIREMENTS
+        - script:
+                name: python unit test
+                code: |
+                  echo ABOUT TO RUN MANAGE TEST
+                  pwd
+                  . conf/env/bin/activate
+                  python manage.py test
+                  echo DONE RUNNING MANAGE TEST
+        - zvelo/docker-save:
+            image: my_docker_image
+            # $DOCKER_IMAGE
+
+build:
+    steps:
+        - install-packages:
+            packages: openssh-client wget
+
+        - script:
+                name: python unit test
+                code: |
+                  wget -O - https://repo.saltstack.com/apt/ubuntu/14.04/amd64/latest/SALTSTACK-GPG-KEY.pub | sudo apt-key add -
+                  echo deb http://repo.saltstack.com/apt/ubuntu/14.04/amd64/latest trusty main >/etc/apt/sources.list.d/salt.list
+                  apt-get -y update && apt-get -y install salt-minion
+                  python --version
+                  salt-call --version
+                  ls -l eracks
+                  ls -l conf
+                  cd conf
+                  pwd
+                  # no 'sudo' - try without it
+                  ./salt-requirements.sh
+                  #me=`id -un`
+                  #echo I am $me
+                  #salt-call --local --pillar-root=$me --file-root=`pwd` state.template requirements.sls 
+                  echo DONE RUNING SALT-REQUIREMENTS
+                  #pip install setuptools -U
+                  #pip install -r requirements.txt
+                  #pip install psycopg2
+                  echo ABOUT TO RUN MANAGE TEST
+                  cd ..
+                  pwd
+                  . conf/env/bin/activate
+                  python manage.py test
+                  echo DONE RUNNING MANAGE TEST
+
+        - zvelo/docker-save:
+            image: my_docker_image

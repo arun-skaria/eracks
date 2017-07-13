@@ -1,0 +1,26 @@
+-   fields: {activation_key: cf13beab8c0f7a8e03a0685ba22b0444aeda7c3d, activation_notification_send: false,
+        email_confirmation_key: '', email_confirmation_key_created: null, email_unconfirmed: '',
+        last_active: null, user: 50}
+    model: userena.userenasignup
+    pk: 16
+-   fields: {comments: '', created: ! '2012-12-01 06:29:44.481783', department: '',
+        email: xman0494@aol.com, email2: '', mugshot: '', organization: 'Meest-America,
+            Inc', phone: 908-230-105, phone2: '', privacy: closed, published: true,
+        title: Mr., updated: ! '2012-12-01 06:38:32.434468', user: 50}
+    model: customers.customer
+    pk: 54730
+-   fields:
+        date_joined: 2012-12-01 06:29:44.133371
+        email: Sergey@yopmail.com
+        first_name: ''
+        groups: []
+        is_active: true
+        is_staff: false
+        is_superuser: false
+        last_login: 2012-12-01 06:30:13.473932
+        last_name: ''
+        password: pbkdf2_sha256$10000$tXfEyBobrE46$zqPwdMrGcmcIiNVviWe4a6uCEfXY2rRq3MzMzGYF/m8=
+        user_permissions: []
+        username: Sergey
+    model: auth.user
+    pk: 50
