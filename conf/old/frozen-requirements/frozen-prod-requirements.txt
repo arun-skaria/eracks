@@ -6,7 +6,7 @@ M2Crypto==0.21.1
 Mako==0.9.1
 Markdown==2.3.1
 MarkupSafe==0.18
-Pillow==2.5.0
+Pillow==6.2.0
 Plata==1.1.0
 PyPDF2==1.22
 PyYAML==3.10
