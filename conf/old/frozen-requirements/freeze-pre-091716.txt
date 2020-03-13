@@ -92,7 +92,7 @@ pyquery==1.2.9
 python-apt==0.9.3.5ubuntu1
 python-augeas==0.4.1
 python-dateutil==1.5
-python-gnupg==0.3.7
+python-gnupg==0.4.4
 python-memcached==1.53
 python-openid==2.2.5
 python-social-auth==0.2.1
