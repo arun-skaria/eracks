@@ -67,7 +67,7 @@ pylibacl==0.5.1
 pyquery==1.2.4
 python-apt==0.9.3.5
 python-augeas==0.4.1
-python-gnupg==0.3.5
+python-gnupg==0.4.4
 python-memcached==1.53
 python-openid==2.2.5
 pytidylib==0.2.1
