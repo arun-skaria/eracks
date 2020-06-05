@@ -1,5 +1,5 @@
 BeautifulSoup==3.2.1
-Django==1.8
+Django==1.11.29
 -e git+https://github.com/jowolf/django-quickpages.git@73e778519c2e515127810c4402e1acb8f48db645#egg=Django_QuickPages-master
 EasyProcess==0.1.6
 -e git+https://github.com/jowolf/Html2Shpaml.git@12b23a9c9dfd3d2239671e1b77d4790feb6ab5ae#egg=Html2Shpaml-master
