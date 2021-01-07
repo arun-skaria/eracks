@@ -69,7 +69,7 @@ html2text==2014.12.5
 html5lib==1.0b3
 httplib2==0.9
 ipython==1.2.1
-lxml==3.4.1
+lxml==4.6.2
 meld3==1.0.0
 mercurial==2.8.2
 msgpack-python==0.3.0
