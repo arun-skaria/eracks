@@ -2,7 +2,7 @@ BeautifulSoup==3.2.1
 Django==1.7.1
 EasyProcess==0.1.6
 GitPython==0.3.2.RC1
-Jinja2==2.7.2
+Jinja2==2.11.3
 M2Crypto==0.21.1
 Mako==0.9.1
 Markdown==2.5.2
