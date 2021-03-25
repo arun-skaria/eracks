@@ -9,7 +9,7 @@ MarkupSafe==0.18
 Pillow==2.5.0
 Plata==1.1.0
 PyPDF2==1.22
-PyYAML==3.10
+PyYAML==5.4
 Pygments==1.6
 South==0.8.2
 Whoosh==2.5.3
