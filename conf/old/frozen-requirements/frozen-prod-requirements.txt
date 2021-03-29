@@ -10,7 +10,7 @@ Pillow==2.5.0
 Plata==1.1.0
 PyPDF2==1.22
 PyYAML==3.10
-Pygments==1.6
+Pygments==2.7.4
 South==0.8.2
 Whoosh==2.5.3
 argparse==1.2.1
