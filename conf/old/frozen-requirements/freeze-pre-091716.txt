@@ -14,7 +14,7 @@ PyJWT==0.3.2
 PyPDF2==1.23
 PyVirtualDisplay==0.1.5
 PyYAML==3.11
-Pygments==2.0.1
+Pygments==2.7.4
 South==0.8.2
 Sphinx==1.2.3
 Werkzeug==0.10.4
