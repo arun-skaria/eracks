@@ -33,7 +33,7 @@ django-browserid==0.11
 django-coffeescript==0.7.2
 django-countries==3.0.1
 -e git+https://github.com/jowolf/django-csvimport.git@b30cb371d016426f9e1cac9fd6220d0b4a82209c#egg=django_csvimport-master
-django-debug-toolbar==1.4
+django-debug-toolbar==1.11.1
 django-easy-select2==1.3
 django-email-extras==0.3.1
 django-extensions==1.5.7
