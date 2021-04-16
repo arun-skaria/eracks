@@ -26,7 +26,7 @@ django-codemirror2==0.0.4
 django-coffeescript==0.7.2
 django-countries==1.5
 django-csvimport==1.0
-django-debug-toolbar==0.9.4
+django-debug-toolbar==1.11.1
 django-email-extras==0.1.13
 -e git://github.com/Bouke/django-filebrowser-no-grappelli.git@a367570e795288281be303f7c2505803f7a48543#egg=django_filebrowser-origin/HEAD
 django-fluent-dashboard==0.3.5
