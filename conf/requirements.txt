@@ -43,7 +43,7 @@ django-robots
 python-memcached
 Sphinx
 PyYAML
-Pillow==4.0.0
+Pillow==8.2.0
 
 # are we using this:
 #django_codemirror
