@@ -1,5 +1,5 @@
 BeautifulSoup==3.2.1
-Django==1.7.1
+Django==2.2.24
 EasyProcess==0.1.6
 GitPython==0.3.2.RC1
 Jinja2==2.7.2
