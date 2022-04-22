@@ -10,7 +10,7 @@ MarkupSafe==0.18
 Pillow==2.6.1
 Plata==1.1.0
 PyJWT==0.3.2
-PyPDF2==1.23
+PyPDF2==1.27.5
 PyVirtualDisplay==0.1.5
 PyYAML==3.11
 Pygments==2.0.1
