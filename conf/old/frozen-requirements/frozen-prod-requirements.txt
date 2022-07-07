@@ -75,7 +75,7 @@ pyxattr==0.5.1
 pyzmq==14.0.1
 rdiff-backup==1.2.8
 reportlab==3.1.8
-requests==2.2.1
+requests==2.20.0
 salt==0.17.5
 six==1.7.3
 smmap==0.8.2
