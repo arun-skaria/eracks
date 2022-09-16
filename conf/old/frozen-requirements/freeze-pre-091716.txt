@@ -4,7 +4,7 @@ Django==1.8
 EasyProcess==0.1.6
 -e git+https://github.com/jowolf/Html2Shpaml.git@12b23a9c9dfd3d2239671e1b77d4790feb6ab5ae#egg=Html2Shpaml-master
 Jinja2==2.7.2
-Mako==0.9.1
+Mako==1.2.2
 Markdown==2.5.2
 MarkupSafe==0.18
 MySQL-python==1.2.3
